@@ -95,6 +95,7 @@ public class PlayerController : MonoBehaviour, ISave
         //fader.FadeOn(3);
         joystick = FindObjectOfType<Joystick>();
         handle = joystick.transform.GetChild(0).GetChild(0).GetComponent<RectTransform>();
+        Input.gyro.enabled = true;
     }
     private void OnEnable()
     {
@@ -186,7 +187,9 @@ public class PlayerController : MonoBehaviour, ISave
         else if (!Input.GetKey(KeyCode.LeftShift))
             cameraAnim.SetState(CameraAnim.MovingState.Walk);
 
-        if (Input.GetKeyDown(KeyCode.F) && !BlockLantern)
+        //Debug.Log("Gyro magnitude: " + Input.gyro.rotationRate.magnitude);
+
+        if ((Input.GetKeyDown(KeyCode.F) || Input.gyro.rotationRate.magnitude > 5) && !BlockLantern)
             Lantern.Switch();
         if (Input.GetKeyDown(KeyCode.C) && !BlockCrouch)
             cameraAnim.SetCrouch = !cameraAnim.SetCrouch;

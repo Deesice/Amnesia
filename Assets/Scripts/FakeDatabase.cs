@@ -180,7 +180,7 @@ public class FakeDatabase : MonoBehaviour
             return a;
         }
     }
-    public static SoundProperty FindProperty(string name)
+    public static SoundProperty FindProperty(string name, bool showError = true)
     {
         if (string.IsNullOrEmpty(name))
             return null;
@@ -193,11 +193,9 @@ public class FakeDatabase : MonoBehaviour
             s.Preload();
             return s;
         }
-        else
-        {
+        else if (showError)
             Debug.Log(name + " do not found in database");
-            return null;
-        }
+        return null;
     }
     public static GameObject FindParticle(string name)
     {

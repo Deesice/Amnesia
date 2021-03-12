@@ -472,6 +472,7 @@ public class Scenario : MonoBehaviour, ISave
             g.name = asPSName;
             g.transform.parent = parent.transform;
             g.transform.localPosition = Vector3.zero;
+            g.transform.localRotation = Quaternion.identity;
         }
         else
         {
@@ -892,7 +893,7 @@ bool abUsePosition, string asPosEntity, float afMinDistance, float afMaxDistance
     protected void PlayGuiSound(string asSoundFile, float afVolume)
     {
         asSoundFile = asSoundFile.Replace(".ogg", "").Replace(".snt", "");
-        var snt = FakeDatabase.FindProperty(asSoundFile);
+        var snt = FakeDatabase.FindProperty(asSoundFile, false);
         if (snt != null)
             SoundManager.PlayClip(snt.GetClip(), false, afVolume);
         else

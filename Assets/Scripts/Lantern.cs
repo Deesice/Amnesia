@@ -16,6 +16,8 @@ public class Lantern : MonoBehaviour, ISave
             prevLitState = state.IsName("Idle") || state.IsName("Draw");
             return prevLitState;
         } }
+
+    float lastSwitchTime;
     public static float Oil = 100;
     static bool prevLitState;
     void Awake()
@@ -68,6 +70,11 @@ public class Lantern : MonoBehaviour, ISave
     }
     public static void Switch()
     {
+        if (Time.time - instance.lastSwitchTime < 1)
+            return;
+
+        instance.lastSwitchTime = Time.time;
+
         if (IsLit)
             Off();
         else
