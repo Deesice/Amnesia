@@ -1,0 +1,12 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L16_JourneyToSanctum05bs_01.ogg" EffectSound="fb_sfx_16_journey.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L16_JourneyToSanctum05_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L16_JourneyToSanctum05_01" />
+		<Voice VoiceSound="flashbacks/CH02L16_JourneyToSanctum05_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L16_JourneyToSanctum05_02" />
+		<Voice VoiceSound="flashbacks/CH02L16_JourneyToSanctum05_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L16_JourneyToSanctum05_03" />
+		<Voice VoiceSound="flashbacks/CH02L16_JourneyToSanctum05_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L16_JourneyToSanctum05_04" />
+		<Voice VoiceSound="flashbacks/CH02L16_JourneyToSanctum05_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L16_JourneyToSanctum05_05" />
+		<Voice VoiceSound="flashbacks/CH02L16_JourneyToSanctum05_06.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L16_JourneyToSanctum05_06" />
+		<Voice VoiceSound="flashbacks/CH02L16_JourneyToSanctum05as_06.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

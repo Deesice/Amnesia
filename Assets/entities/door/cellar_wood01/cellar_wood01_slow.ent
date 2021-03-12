@@ -1,0 +1,78 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 20.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="20.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="-0.800000 20.000000 0.200000" CameraTarget="-0.800000 0.000000 0.200000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="-0.120510 2.682094 2.616637" CameraTarget="-0.127692 1.355296 -0.606761" CameraZoom="2.663328" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="SwingDoor">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="MoveMaxSpeed" Value="3" />
+        <Var Name="MoveSlowDownFactor" Value="6.0" />
+        <Var Name="MoveSpeedFactor" Value="0.5" />
+        <Var Name="MoveThrowImpulse" Value="1.5" />
+        <Var Name="CloseOnSound" Value="close_door" />
+        <Var Name="CloseOffSound" Value="open_door" />
+        <Var Name="LockOnSound" Value="lock_door" />
+        <Var Name="LockOffSound" Value="unlock_door" />
+        <Var Name="InteractLockedSound" Value="locked_door" />
+        <Var Name="Breakable" Value="true" />
+        <Var Name="DamageMesh1" Value="door/cellar_wood01/cellar_wood01_damage1.dae" />
+        <Var Name="DamageMesh2" Value="door/cellar_wood01/cellar_wood01_damage2.dae" />
+        <Var Name="BrokenEntity" Value="door/cellar_wood01/cellar_wood01_broken.ent" />
+        <Var Name="DamageSound" Value="hit_wood" />
+        <Var Name="DamagePS" Value="F:/Amnesia/redist/particles/ps_door_damage_wood.ps" />
+        <Var Name="BreakSound" Value="break_wood_metal" />
+        <Var Name="BreakPS" Value="ps_break_wood" />
+        <Var Name="BreakImpulse" Value="5" />
+        <Var Name="HealthDamage1" Value="66" />
+        <Var Name="HealthDamage2" Value="33" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="entities/door/cellar_wood01/cellar_wood01.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="polySurface8" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="13" WorldPos="-0.011089 0.000000 0.000000" />
+            <SubMesh Active="true" GroupID="0" ID="1" Name="Scene_Root" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="1" Tag="" Type="13" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="2" Name="BodyShape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="1.850000 3.000000 0.350000" RelativeTranslation="0.000000 -0.000000 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="1.480000 2.400000 0.350000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000000 1.371390 0.000000" />
+            <BodyShape Active="true" GroupID="0" ID="3" Name="BodyShape_1_clone_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.050000 3.000000 0.350000" RelativeTranslation="0.000000 0.000000 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.045000 2.700000 0.315000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="-0.905653 1.492752 -0.008989" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="10.000000" BlocksSound="true" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="false" GroupID="0" HasGravity="true" ID="5" LinearDamping="10.000000" Mass="2.000000" Material="Wood_Heavy" MaxAngularSpeed="8.000000" MaxLinearSpeed="8.000000" Name="Body_1" PushedByCharacterGravity="false" Rotation="0.000000 0.000000 0.000000" Scale="0.800000 0.800000 1.000000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000000 1.371390 0.000000">
+                <Shape ID="2" />
+                <Children>
+                    <Child ID="1" />
+                </Children>
+            </Body>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" HasGravity="true" ID="6" LinearDamping="0.000000" Mass="0.000000" Material="Metal" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body_2" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="0.900000 0.900000 0.900000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.905653 1.492752 -0.008989">
+                <Shape ID="3" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointHinge Active="true" BreakForce="0.000000" BreakSound="" Breakable="false" CollideBodies="true" ConnectedChildBodyID="5" ConnectedParentBodyID="6" GroupID="0" ID="7" LimitStepCount="0" MaxAngle="90.000000" MaxLimitMaxSpeed="0.000000" MaxLimitMinSpeed="0.000000" MaxLimitSound="" MaxMoveFreq="1.100000" MaxMoveFreqSpeed="0.700000" MaxMoveSpeed="2.000000" MaxMoveVolume="0.800000" MiddleMoveSpeed="0.500000" MiddleMoveVolume="0.500000" MinAngle="0.000000" MinLimitMaxSpeed="0.000000" MinLimitMinSpeed="0.000000" MinLimitSound="" MinMoveFreq="0.950000" MinMoveFreqSpeed="0.200000" MinMoveSpeed="0.100000" MinMoveVolume="0.010000" MoveSound="joint_metal_wood_move.snt" MoveType="Linear" Name="HingeJoint_1" PinDir="0.000000 1.000000 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" StickyMaxLimit="false" StickyMinLimit="false" SubType="1" Tag="" Type="12" WorldPos="-0.879788 1.628340 0.201493" />
+        </Joints>
+    </ModelData>
+</Entity>

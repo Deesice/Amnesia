@@ -1,0 +1,60 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.880028 3.77405 3.32642" CameraTarget="0.178335 1.73978 -0.430264" CameraZoom="2.43013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/door/level_engine/level_engine.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="base" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="1" Name="BodyShape_1" RelativeRotation="0 0 0" RelativeScale="1.75 2.75 0.27" RelativeTranslation="0.186136 0.093853 -0.0544735" Rotation="0 0 0" Scale="1.75 2.75 0.27" ShapeType="Box" Tag="" WorldPos="0 1.375 0.012057" />
+            <BodyShape Active="true" ID="2" Name="BodyShape_2" RelativeRotation="0 0 0" RelativeScale="0.05 0.52 0.05" RelativeTranslation="-0.700391 -0.76601 0.0544735" Rotation="0 0 0" Scale="0.05 0.52 0.05" ShapeType="Cylinder" Tag="" WorldPos="-0.886527 0.515137 0.121004" />
+            <BodyShape Active="true" ID="3" Name="BodyShape_3" RelativeRotation="0 0 0" RelativeScale="0.05 0.52 0.05" RelativeTranslation="-0.700391 0.76601 0.0544735" Rotation="0 0 0" Scale="0.05 0.52 0.05" ShapeType="Cylinder" Tag="" WorldPos="-0.886527 2.04716 0.121004" />
+            <BodyShape Active="true" ID="4" Name="BodyShape_4" RelativeRotation="0 0 0" RelativeScale="0.15 0.52 0.15" RelativeTranslation="0.700391 -0.085117 0.0308905" Rotation="0 0 0" Scale="0.15 0.52 0.15" ShapeType="Cylinder" Tag="" WorldPos="0.514255 1.19603 0.097421" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="5" LinearDamping="0" Mass="0" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.186136 1.28115 0.0665305">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="3" />
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="4" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="LevelDoor">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EnterSound" Value="door_level_engine_open" />
+        <Var Name="ExitSound" Value="door_level_engine_close" />
+    </UserDefinedVariables>
+</Entity>

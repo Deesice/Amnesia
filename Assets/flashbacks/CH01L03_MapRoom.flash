@@ -1,0 +1,10 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH01L03_MapRoombs_01.ogg" EffectSound="fb_sfx_03_archives" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH01L03_MapRoom_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L03_MapRoom_01" />
+		<Voice VoiceSound="flashbacks/CH01L03_MapRoom_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L03_MapRoom_02" />
+		<Voice VoiceSound="flashbacks/CH01L03_MapRoom_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L03_MapRoom_03" />
+		<Voice VoiceSound="flashbacks/CH01L03_MapRoom_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L03_MapRoom_04" />
+		<Voice VoiceSound="flashbacks/CH01L03_MapRoomas_04.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

@@ -1,0 +1,10 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH01L11_DogExperimentbs_01.ogg" EffectSound="fb_sfx_11_dogexperiment.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH01L11_DogExperiment_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L11_DogExperiment_01" />
+		<Voice VoiceSound="flashbacks/CH01L11_DogExperimentas_01.ogg" EffectSound="" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH01L11_DogExperiment_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L11_DogExperiment_02" />
+		<Voice VoiceSound="flashbacks/CH01L11_DogExperiment_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L11_DogExperiment_03" />
+		<Voice VoiceSound="flashbacks/CH01L11_DogExperimentas_03.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

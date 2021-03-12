@@ -1,0 +1,31 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.050000 1000.000000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.200000 0.200000 0.200000 1.000000" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 180.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.000000 180.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="4.299998" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.362560 0.585024 0.246569" CameraTarget="-0.103624 0.059394 -0.253445" CameraZoom="4.060130" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="Static" EntityType="Object" />
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="entities/special/orb/orb_3_of_6.dae">
+            <SubMesh Active="true" GroupID="0" ID="2" Name="orb3" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="13" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="3" Name="Shape_1" RelativeRotation="0.000000 -0.488692 0.000000" RelativeScale="0.350000 0.200000 0.200000" RelativeTranslation="0.000000 0.000000 0.000000" Rotation="0.000000 -0.488692 0.000000" Scale="0.350000 0.200000 0.200000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.025829 0.107624 -0.049828" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" BuoyancyDensityMul="1.000000" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" HasGravity="true" ID="5" LinearDamping="0.000000" Mass="0.000000" Material="Default" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body_1" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="0.025829 0.107624 -0.049828">
+                <Shape ID="3" />
+                <Children>
+                    <Child ID="2" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

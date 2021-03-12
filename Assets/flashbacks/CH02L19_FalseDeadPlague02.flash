@@ -1,0 +1,10 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L19_FalseDeadPlaguebs_01.ogg" EffectSound="fb_sfx_19_false_dead02.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L19_FalseDeadPlague_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_FalseDeadPlague_04" />
+		<Voice VoiceSound="flashbacks/CH02L19_FalseDeadPlague_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_FalseDeadPlague_05" />
+		<Voice VoiceSound="flashbacks/CH02L19_FalseDeadPlague_06.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_FalseDeadPlague_06" />
+		<Voice VoiceSound="flashbacks/CH02L19_FalseDeadPlague_07.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_FalseDeadPlague_07" />
+		<Voice VoiceSound="flashbacks/CH02L19_FalseDeadPlaguebs_01.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

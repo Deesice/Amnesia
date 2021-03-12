@@ -1,0 +1,13 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L21_AlexanderAgrippabs_01.ogg" EffectSound="fb_sfx_21_alex_agrippa.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L21_AlexanderAgrippa_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_AlexanderAgrippa_01" />
+		<Voice VoiceSound="flashbacks/CH02L21_AlexanderAgrippa_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_AlexanderAgrippa_02" />
+		<Voice VoiceSound="flashbacks/CH02L21_AlexanderAgrippa_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_AlexanderAgrippa_03" />
+		<Voice VoiceSound="flashbacks/CH02L21_AlexanderAgrippa_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_AlexanderAgrippa_04" />
+		<Voice VoiceSound="flashbacks/CH02L21_AlexanderAgrippa_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_AlexanderAgrippa_05" />
+		<Voice VoiceSound="flashbacks/CH02L21_AlexanderAgrippa_06.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_AlexanderAgrippa_06" />
+		<Voice VoiceSound="flashbacks/CH02L21_AlexanderAgrippa_07.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_AlexanderAgrippa_07" />
+		<Voice VoiceSound="flashbacks/CH02L21_AlexanderAgrippaas_07.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

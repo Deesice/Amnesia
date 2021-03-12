@@ -1,0 +1,32 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="0" UsingEnlargedViewport="false">
+            <Viewport CameraPosition="0.000000 0.000000 180.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="180.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 180.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="-0.884369 0.832419 0.739161" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="3.560131" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="entities/ornament/cloth_pile/cloth_pile.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="polySurface2" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="13" WorldPos="0.000000 0.005000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="1" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.400000 0.300000 0.400000" RelativeTranslation="0.000000 0.000000 -0.057224" Rotation="0.000000 0.000000 0.000000" Scale="0.400000 0.300000 0.400000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000023 0.105750 -0.031253" />
+            <BodyShape Active="true" GroupID="0" ID="2" Name="Shape_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.900000 0.100000 0.900000" RelativeTranslation="0.000000 -0.050203 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.900000 0.100000 0.900000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000023 0.055547 0.025971" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" HasGravity="true" ID="3" LinearDamping="0.000000" Mass="0.000000" Material="Generic_Soft" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body" PushedByCharacterGravity="false" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000023 0.105750 0.025971">
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

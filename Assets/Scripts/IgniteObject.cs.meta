@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 0bd5964fecf8057439633d63918182a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - root: {instanceID: 0}
+  - igniteSound: {fileID: 8300000, guid: 18d2236384b53764cb8ea62bc64dc345, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

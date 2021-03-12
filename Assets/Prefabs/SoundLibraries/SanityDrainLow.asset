@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: SanityDrainLow
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 8f75de27b6ca172478b838d549d3e3c4, type: 3}
+  - {fileID: 8300000, guid: 0671d24db5cbf8c468347e8515fda6f6, type: 3}
+  - {fileID: 8300000, guid: 1df28db5f9c1d1e49818cbf51ef8e355, type: 3}
+  - {fileID: 8300000, guid: d457b4d75dce9a64a90ebb97ed288617, type: 3}
+  - {fileID: 8300000, guid: 1608fb03e6a6f57439193e346fba1bb6, type: 3}
+  - {fileID: 8300000, guid: f53213c0025fa9d41ad996302005c45f, type: 3}
+  volume: 0.6

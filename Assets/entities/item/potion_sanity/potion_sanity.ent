@@ -1,0 +1,49 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig SelectedViewport="0" UsingEnlargedViewport="false">
+            <Viewport CameraPosition="-0.100000 0.100000 20.000000" CameraTarget="-0.100000 0.100000 0.000000" CameraZoom="0.916291" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="20.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 20.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.073626 0.389285 0.215047" CameraTarget="-0.152360 0.163299 -0.010939" CameraZoom="4.849999" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+        <GlobalLightConfig AmbientLight="false" PointLight="false" />
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="Sanity" EntityType="Item">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="SubItemTypeName" Value="SanityPotion" />
+        <Var Name="ImageFile" Value="potion_sanity.tga" />
+        <Var Name="PickSound" Value="Potion" />
+        <Var Name="HealAmount" Value="30" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="E:/lux/redist/entities/item/potion_sanity/potion_sanity.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="pCylinder1" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="11" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="1" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.040000 0.230000 0.040000" RelativeTranslation="0.000000 0.000000 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.040000 0.230000 0.040000" ShapeType="Cylinder" ShapeTypeID="1" Tag="" Type="8" WorldPos="0.000000 0.115105 0.000000" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.300000" BlocksSound="false" CanAttachCharacter="true" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" ID="2" LinearDamping="0.300000" Mass="0.500000" Material="Glass" MaxAngularSpeed="8.000000" MaxLinearSpeed="8.000000" Name="Body_1" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="9" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000000 0.115105 0.000000">
+                <Shape ID="1" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

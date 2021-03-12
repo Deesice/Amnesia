@@ -1,0 +1,4 @@
+[1120/225702.087:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglInitialize: No available renderers.
+[1120/225702.087:ERROR:gl_surface_egl.cc(949)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1128/011609.603:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglInitialize: No available renderers.
+[1128/011609.604:ERROR:gl_surface_egl.cc(949)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type

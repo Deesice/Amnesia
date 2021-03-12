@@ -1,0 +1,2 @@
+[0920/010424.900:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglInitialize: No available renderers.
+[0920/010424.901:ERROR:gl_surface_egl.cc(949)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type

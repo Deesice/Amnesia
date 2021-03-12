@@ -1,0 +1,9 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L21_PrisonerWaitRoombs_01.ogg" EffectSound="fb_sfx_21_prisoner_wait_room.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L21_PrisonerWaitRoom_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_PrisonerWaitRoom_01" />
+		<Voice VoiceSound="flashbacks/CH02L21_PrisonerWaitRoom_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_PrisonerWaitRoom_02" />
+		<Voice VoiceSound="flashbacks/CH02L21_PrisonerWaitRoom_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_PrisonerWaitRoom_03" />
+		<Voice VoiceSound="flashbacks/CH02L21_PrisonerWaitRoomas_03.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

@@ -1,0 +1,165 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="0" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.702376 2.95599 2.63607" CameraTarget="0 0 0" CameraZoom="2.52013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0.0227486 0.0014807" CameraTarget="0 0.0227486 0.0014807" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.0123785 180 0.0101926" CameraTarget="-0.0123785 0 0.0101926" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.42925 1.31019 2.87443" CameraTarget="0.0698866 0.365942 0.161768" CameraZoom="2.84914" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/door/cellar_wood01/cellar_wood01_broken.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="Object08" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0.0219137 1.35575 0.00564174" />
+            <SubMesh Active="true" ID="1" Material="" Name="Box06" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0.0219137 1.35076 0.00564174" />
+            <SubMesh Active="true" ID="2" Material="" Name="Box08" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="0.0219137 1.35575 0.00564174" />
+            <SubMesh Active="true" ID="3" Material="" Name="Box09" Rotation="0 0 0" Scale="1 1 1" SubMeshID="3" Tag="" WorldPos="0.0219137 1.37696 0.00564174" />
+            <SubMesh Active="true" ID="4" Material="" Name="Box10" Rotation="0 0 0" Scale="1 1 1" SubMeshID="4" Tag="" WorldPos="0.0219137 1.35078 0.00564174" />
+            <SubMesh Active="true" ID="5" Material="" Name="Box14" Rotation="0 0 0" Scale="1 1 1" SubMeshID="5" Tag="" WorldPos="-0.0156684 1.35575 0.00564174" />
+            <SubMesh Active="true" ID="6" Material="" Name="Box15" Rotation="0 0 0" Scale="1 1 1" SubMeshID="6" Tag="" WorldPos="-0.283669 1.35078 0.00564174" />
+            <SubMesh Active="true" ID="7" Material="" Name="Object11" Rotation="0 0 0" Scale="0.946717 1 1" SubMeshID="7" Tag="" WorldPos="0.0553707 1.35575 0.00564174" />
+            <SubMesh Active="true" ID="8" Material="" Name="Object01" Rotation="0 0 0" Scale="0.946717 1 1" SubMeshID="8" Tag="" WorldPos="0.0219137 1.35078 0.00564174" />
+            <SubMesh Active="true" ID="9" Material="" Name="Object02" Rotation="0 0 0" Scale="0.946717 1 1" SubMeshID="9" Tag="" WorldPos="0.0219137 1.37696 0.00564174" />
+            <SubMesh Active="true" ID="10" Material="" Name="Object05" Rotation="0 0 0" Scale="0.946717 1 1" SubMeshID="10" Tag="" WorldPos="0.0219137 1.35076 0.00564174" />
+            <SubMesh Active="true" ID="11" Material="" Name="Box16" Rotation="0 0 0" Scale="1 1 1" SubMeshID="11" Tag="" WorldPos="0.0219137 1.37696 0.00564174" />
+            <SubMesh Active="true" ID="12" Material="" Name="Box18" Rotation="0 0 0" Scale="1 1 1" SubMeshID="12" Tag="" WorldPos="0.0219137 1.35575 0.00564174" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="29" Name="BodyShape_3" RelativeRotation="0 0 0" RelativeScale="0.196 1.6 0.122" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.196 1.6 0.122" ShapeType="Box" Tag="" WorldPos="0.0782199 0.883507 0.00531844" />
+            <BodyShape Active="true" ID="30" Name="BodyShape_4" RelativeRotation="0 0 0" RelativeScale="0.196 2.755 0.122" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.196 2.755 0.122" ShapeType="Box" Tag="" WorldPos="0.777291 1.44005 0.00531844" />
+            <BodyShape Active="true" ID="31" Name="BodyShape_5" RelativeRotation="0 0 0" RelativeScale="0.196 2.755 0.122" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.196 2.755 0.122" ShapeType="Box" Tag="" WorldPos="-0.773593 1.44313 0.00531844" />
+            <BodyShape Active="true" ID="39" Name="BodyShape_7" RelativeRotation="0 0 0" RelativeScale="0.196 0.98 0.122" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.196 0.98 0.122" ShapeType="Box" Tag="" WorldPos="-0.510909 2.35038 0.00681392" />
+            <BodyShape Active="true" ID="43" Name="BodyShape_11" RelativeRotation="0 0 0" RelativeScale="0.196 0.57 0.122" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.196 0.57 0.122" ShapeType="Box" Tag="" WorldPos="0.379419 2.52579 0.00686107" />
+            <BodyShape Active="true" ID="58" Name="BodyShape_16" RelativeRotation="0 0 0" RelativeScale="0.165 0.165 0.35" RelativeTranslation="-0.0072785 0.0511649 -0.00232932" Rotation="0 0 0" Scale="0.165 0.165 0.35" ShapeType="Box" Tag="" WorldPos="0.476953 1.42589 0.00143334" />
+            <BodyShape Active="true" ID="60" Name="BodyShape_17" RelativeRotation="0 0 0" RelativeScale="0.28 0.28 0.35" RelativeTranslation="-0.0072785 -0.0854551 -0.00232932" Rotation="0 0 0" Scale="0.28 0.28 0.35" ShapeType="Box" Tag="" WorldPos="0.476953 1.28927 0.00143334" />
+            <BodyShape Active="true" ID="75" Name="BodyShape_27" RelativeRotation="0 0 0" RelativeScale="1.74999 0.43 0.054" RelativeTranslation="-8.00254e-011 -1.39085e-007 4.88644e-009" Rotation="0 0 0" Scale="1.65675 0.43 0.054" ShapeType="Box" Tag="" WorldPos="0.0029538 2.33346 -0.0819809" />
+            <BodyShape Active="true" ID="103" Name="BodyShape_28" RelativeRotation="0 0 0" RelativeScale="1.74999 0.43 0.054" RelativeTranslation="-9.62594e-010 4.69983e-010 4.88644e-009" Rotation="0 0 0" Scale="1.65675 0.43 0.054" ShapeType="Box" Tag="" WorldPos="0.0337607 0.492115 -0.0819809" />
+            <BodyShape Active="true" ID="104" Name="BodyShape_29" RelativeRotation="0 0 0" RelativeScale="1.74999 0.43 0.08" RelativeTranslation="-8.00254e-011 3.9053e-010 1.18101e-009" Rotation="0 0 0" Scale="1.65675 0.43 0.08" ShapeType="Box" Tag="" WorldPos="0.0029538 0.493448 0.105186" />
+            <BodyShape Active="true" ID="105" Name="BodyShape_30" RelativeRotation="0 0 0" RelativeScale="1.74999 0.43 0.08" RelativeTranslation="-8.00254e-011 1.00048e-007 1.11878e-009" Rotation="0 0 0" Scale="1.65675 0.43 0.08" ShapeType="Box" Tag="" WorldPos="0.0029538 2.32147 0.10623" />
+            <BodyShape Active="true" ID="110" Name="BodyShape_8" RelativeRotation="0 0 0" RelativeScale="0.196 0.98 0.122" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.196 0.98 0.122" ShapeType="Box" Tag="" WorldPos="-0.020366 2.33063 -0.000592374" />
+            <BodyShape Active="true" ID="112" Name="BodyShape_6" RelativeRotation="-0.0141369 0 0" RelativeScale="0.196 1.55 0.15" RelativeTranslation="0 0 0" Rotation="-0.0141369 0 0" Scale="0.196 1.55 0.15" ShapeType="Box" Tag="" WorldPos="-0.284674 0.84007 -0.00686096" />
+            <BodyShape Active="true" ID="122" Name="BodyShape_9" RelativeRotation="0 0 0" RelativeScale="0.16 0.54 0.122" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="0.16 0.54 0.122" ShapeType="Box" Tag="" WorldPos="-0.280575 2.52952 0.00635002" />
+            <BodyShape Active="true" ID="129" Name="BodyShape_12" RelativeRotation="0 0 0" RelativeScale="0.3 0.6 0.123" RelativeTranslation="0.0072785 0.0854549 0.00232933" Rotation="0 0 0" Scale="0.3 0.6 0.123" ShapeType="Box" Tag="" WorldPos="0.49151 1.46018 0.00609199" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="123" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="-0.773593 1.44313 0.00531844">
+                <Children>
+                    <Child ID="4" />
+                </Children>
+                <Shape ID="31" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="124" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_2" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="-0.510909 2.35038 0.00681392">
+                <Children>
+                    <Child ID="3" />
+                </Children>
+                <Shape ID="39" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="126" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_4" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="-0.020366 2.33063 -0.000592374">
+                <Children>
+                    <Child ID="12" />
+                </Children>
+                <Shape ID="110" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="127" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_5" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.379419 2.52579 0.00686107">
+                <Children>
+                    <Child ID="1" />
+                </Children>
+                <Shape ID="43" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="131" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_7" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="0.0782199 0.883507 0.00531844">
+                <Children>
+                    <Child ID="6" />
+                </Children>
+                <Shape ID="29" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="134" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_10" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="0.946717 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.0337607 0.492115 -0.0819809">
+                <Children>
+                    <Child ID="7" />
+                </Children>
+                <Shape ID="103" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="137" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_12" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="0.946717 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.0029538 2.33346 -0.0819809">
+                <Children>
+                    <Child ID="9" />
+                </Children>
+                <Shape ID="75" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="138" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_13" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.280575 2.52952 0.00635002">
+                <Children>
+                    <Child ID="5" />
+                </Children>
+                <Shape ID="122" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="139" LinearDamping="0" Mass="3" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_3" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="0.484232 1.37473 0.00376266">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="129" />
+                <Shape ID="60" />
+                <Shape ID="58" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="140" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_6" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="0.777291 1.44005 0.00531844">
+                <Children>
+                    <Child ID="2" />
+                </Children>
+                <Shape ID="30" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="141" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_8" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="0.946717 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="0.0029538 0.493448 0.105186">
+                <Children>
+                    <Child ID="10" />
+                </Children>
+                <Shape ID="104" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="142" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_9" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="0.946717 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="0.0029538 2.32147 0.10623">
+                <Children>
+                    <Child ID="8" />
+                </Children>
+                <Shape ID="105" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="143" LinearDamping="0" Mass="2" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_11" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="-0.284674 0.84007 -0.00686096">
+                <Children>
+                    <Child ID="11" />
+                </Children>
+                <Shape ID="112" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Static" EntityType="Object">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="HitDamageAmount" Value="5" />
+        <Var Name="HitDamageStrength" Value="1" />
+        <Var Name="MinHitDamageSpeed" Value="3" />
+        <Var Name="LifeLength" Value="4" />
+        <Var Name="IsFood" Value="false" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,40 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="0" UsingEnlargedViewport="false">
+            <Viewport CameraPosition="0.000000 0.000000 100.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="100.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 100.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.777932 3.140305 2.973722" CameraTarget="0.079977 1.063835 -1.207575" CameraZoom="2.360131" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="Static" EntityType="StaticProp" />
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="C:/SVN/lux/redist/entities/furniture/stove_corner/stove_corner.dae">
+            <SubMesh Active="true" GroupID="0" ID="8" Name="stove_corner_mesh" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="11" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="1" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="1.250000 0.400000 1.400000" RelativeTranslation="0.028078 -1.525750 0.082298" Rotation="0.000000 0.000000 0.000000" Scale="1.250000 0.400000 1.400000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="8" WorldPos="0.006231 0.198446 0.014800" />
+            <BodyShape Active="true" GroupID="0" ID="2" Name="Shape_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.250000 1.000000 1.000000" RelativeTranslation="-0.431612 -0.804219 0.069402" Rotation="0.000000 0.000000 0.000000" Scale="0.250000 1.000000 1.000000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="8" WorldPos="-0.453459 0.919977 0.001904" />
+            <BodyShape Active="true" GroupID="0" ID="3" Name="Shape_3" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.250000 1.000000 1.000000" RelativeTranslation="0.470332 -0.804219 0.069402" Rotation="0.000000 0.000000 0.000000" Scale="0.250000 1.000000 1.000000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="8" WorldPos="0.448485 0.919977 0.001904" />
+            <BodyShape Active="true" GroupID="0" ID="4" Name="Shape_4" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.600000 0.250000 0.250000" RelativeTranslation="0.015733 -0.445778 0.461593" Rotation="0.000000 0.000000 0.000000" Scale="0.600000 0.250000 0.250000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="8" WorldPos="-0.006114 1.278418 0.394095" />
+            <BodyShape Active="true" GroupID="0" ID="5" Name="Shape_5" RelativeRotation="0.000000 1.570796 0.000000" RelativeScale="0.250000 1.000000 0.500000" RelativeTranslation="0.002974 -0.804219 -0.379794" Rotation="0.000000 1.570796 0.000000" Scale="0.250000 1.000000 0.500000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="8" WorldPos="-0.018873 0.919977 -0.447292" />
+            <BodyShape Active="true" GroupID="0" ID="6" Name="Shape_6" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.650000 2.000000 0.650000" RelativeTranslation="-0.003079 0.725750 -0.132298" Rotation="0.000000 0.000000 0.000000" Scale="0.650000 2.000000 0.650000" ShapeType="Cylinder" ShapeTypeID="1" Tag="" Type="8" WorldPos="-0.024926 2.449946 -0.199796" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" ID="7" LinearDamping="0.000000" Mass="0.000000" Material="Rock" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="9" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.021847 1.724196 -0.067498">
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+                <Shape ID="6" />
+                <Children>
+                    <Child ID="8" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

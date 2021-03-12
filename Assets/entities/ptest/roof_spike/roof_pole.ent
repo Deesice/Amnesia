@@ -1,0 +1,69 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="-0.199973 -0.395203 180.47" CameraTarget="-0.199973 -0.395203 0.470168" CameraZoom="0" GridHeight="0.470168" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180.194 -0.426055 0.470168" CameraTarget="0.193754 -0.426055 0.470168" CameraZoom="0" GridHeight="0.193754" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.193754 179.574 0.470168" CameraTarget="0.193754 -0.426055 0.470168" CameraZoom="0" GridHeight="-0.426055" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="8.14143 11.1107 -1.40054" CameraTarget="0.174852 1.68066 -0.402698" CameraZoom="1.39554" GridHeight="-0.426055" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/ptest/roof_spike/roof_spike.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="pCube1" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="1.85131 0.158338 -7.02263" />
+            <SubMesh Active="true" ID="1" Material="" Name="polySurface9" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="1.76418 0.0925779 -7.02263" />
+            <SubMesh Active="true" ID="2" Material="" Name="polySurface10" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="1.76418 0.0925779 -7.02263" />
+            <SubMesh Active="true" ID="3" Material="" Name="polySurface8" Rotation="0 0 0" Scale="1 1 1" SubMeshID="3" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="8" Name="Shape_5" RelativeRotation="0 0 0" RelativeScale="0.25 0.5 0.25" RelativeTranslation="0 -1.92139 0" Rotation="0 0 0" Scale="0.25 0.5 0.25" ShapeType="Box" Tag="" WorldPos="0.00184105 -0.841341 -0.00385132" />
+            <BodyShape Active="true" ID="9" Name="Shape_6" RelativeRotation="0 0 0" RelativeScale="0.12 7.75 0.12" RelativeTranslation="0 1.92139 0" Rotation="0 0 0" Scale="0.12 7.75 0.12" ShapeType="Box" Tag="" WorldPos="0.00184105 3.00143 -0.00385132" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="10" LinearDamping="0" Mass="0" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.00184105 1.08004 -0.00385132">
+                <Children>
+                    <Child ID="3" />
+                </Children>
+                <Shape ID="8" />
+                <Shape ID="9" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="MoveObject">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="MoveObjectType" Value="Linear" />
+        <Var Name="OpenAmount" Value="1.0" />
+        <Var Name="MoveAxis" Value="Y" />
+        <Var Name="OpenAcc" Value="1" />
+        <Var Name="OpenSpeed" Value="0.3" />
+        <Var Name="CloseAcc" Value="1" />
+        <Var Name="CloseSpeed" Value="0.3" />
+        <Var Name="AutoMove" Value="false" />
+        <Var Name="AutoMoveStateGoal" Value="0.0" />
+        <Var Name="AutoMoveAcc" Value="9.0" />
+        <Var Name="AutoMoveSpeed" Value="5.0" />
+        <Var Name="AutoMoveSlowdownDist" Value="0.1" />
+    </UserDefinedVariables>
+</Entity>

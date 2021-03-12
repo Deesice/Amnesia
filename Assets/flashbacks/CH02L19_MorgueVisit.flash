@@ -1,0 +1,15 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisitbs_01.ogg" EffectSound="fb_sfx_19_morgue_visit.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisit_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_MorgueVisit_01" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisit_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_MorgueVisit_02" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisit_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_MorgueVisit_03" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisit_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_MorgueVisit_04" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisit_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_MorgueVisit_05" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisit_06.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_MorgueVisit_06" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisit_07.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_MorgueVisit_07" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisit_08.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_MorgueVisit_08" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisit_09.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L19_MorgueVisit_09" />
+		<Voice VoiceSound="flashbacks/CH02L19_MorgueVisitas_09.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

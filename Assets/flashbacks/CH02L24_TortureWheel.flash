@@ -1,0 +1,11 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L24_TortureWheelbs_01.ogg" EffectSound="fb_sfx_24_torture_wheel.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L24_TortureWheel_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L24_TortureWheel_01" />
+		<Voice VoiceSound="flashbacks/CH02L24_TortureWheel_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L24_TortureWheel_02" />
+		<Voice VoiceSound="flashbacks/CH02L24_TortureWheel_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L24_TortureWheel_03" />
+		<Voice VoiceSound="flashbacks/CH02L24_TortureWheel_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L24_TortureWheel_04" />
+		<Voice VoiceSound="flashbacks/CH02L24_TortureWheel_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L24_TortureWheel_05" />
+		<Voice VoiceSound="flashbacks/CH02L24_TortureWheelas_05.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

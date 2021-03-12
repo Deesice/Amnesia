@@ -1,0 +1,106 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 2.17676 -0.00897053" CameraTarget="0 2.17676 -0.00897053" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.00339541 1.97346 2.44139" CameraTarget="-0.0384181 1.94727 -0.0571122" CameraZoom="2.99613" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/statues/armour_rusty/armour_rusty_complete.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="breastplate" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="podium" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0.117585 0 0.432704" />
+            <SubMesh Active="true" ID="2" Material="" Name="left_glove" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="3" Material="" Name="right_glove" Rotation="0 0 0" Scale="1 1 1" SubMeshID="3" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="4" Material="" Name="right_boot" Rotation="0 0 0" Scale="1 1 1" SubMeshID="4" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="5" Material="" Name="left_boot" Rotation="0 0 0" Scale="1 1 1" SubMeshID="5" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="6" Material="" Name="head" Rotation="0 0 0" Scale="1 1 1" SubMeshID="6" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="8" Name="Shape_1" RelativeRotation="0 0 0" RelativeScale="1 0.25 0.68" RelativeTranslation="-0.0199587 -0.913258 0.0731499" Rotation="0 0 0" Scale="0.850101 0.25 0.510001" ShapeType="Box" Tag="" WorldPos="-0.0303985 0.125344 0.0672704" />
+            <BodyShape Active="true" ID="9" Name="Shape_2" RelativeRotation="0 0 0" RelativeScale="0.91 1.8 0.577" RelativeTranslation="0.0199587 0.073608 -0.031867" Rotation="0 0 0" Scale="0.773592 1.8 0.43275" ShapeType="Box" Tag="" WorldPos="0.00353534 1.11221 -0.0114924" />
+            <BodyShape Active="true" ID="10" Name="Shape_3" RelativeRotation="0 0 1.5708" RelativeScale="0.22 1 0.22" RelativeTranslation="-0.00345851 0.913258 -0.0731499" Rotation="0 0 1.5708" Scale="0.22 0.850101 0.22" ShapeType="Cylinder" Tag="" WorldPos="-0.0163717 1.95186 -0.0424547" />
+            <BodyShape Active="true" ID="12" Name="Shape_4" RelativeRotation="0 0 0" RelativeScale="0.21 0.21 0.21" RelativeTranslation="-0.00068996 0.118835 0.00857225" Rotation="0 0 0" Scale="0.21 0.21 0.21" ShapeType="Sphere" Tag="" WorldPos="0.00609156 2.37612 -0.014014" />
+            <BodyShape Active="true" ID="13" Name="Shape_5" RelativeRotation="0.866462 0 0" RelativeScale="0.327443 0.05 0.238645" RelativeTranslation="0.00034121 -0.118835 0.120906" Rotation="0.866462 0 0" Scale="0.327443 0.05 0.238645" ShapeType="Box" Tag="" WorldPos="0.00712273 2.13845 0.0983195" />
+            <BodyShape Active="true" ID="14" Name="Shape_6" RelativeRotation="-0.536503 0 0" RelativeScale="0.327443 0.05 0.206269" RelativeTranslation="0.00068996 -0.073745 -0.120906" Rotation="-0.536503 0 0" Scale="0.327443 0.05 0.206269" ShapeType="Box" Tag="" WorldPos="0.00747148 2.18354 -0.143492" />
+            <BodyShape Active="true" ID="15" Name="Shape_7" RelativeRotation="0.147832 0 0" RelativeScale="0.376729 0.104061 0.206269" RelativeTranslation="0.00068996 -0.037585 -0.00141465" Rotation="0.147832 0 0" Scale="0.376729 0.104061 0.206269" ShapeType="Box" Tag="" WorldPos="0.00747148 2.2197 -0.0240009" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="11" LinearDamping="0" Mass="0" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="0.850101 1 0.750001" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.0134316 1.0386 0.0124079">
+                <Children>
+                    <Child ID="0" />
+                    <Child ID="3" />
+                    <Child ID="5" />
+                    <Child ID="4" />
+                    <Child ID="1" />
+                </Children>
+                <Shape ID="10" />
+                <Shape ID="9" />
+                <Shape ID="8" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="16" LinearDamping="0" Mass="3" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.00678152 2.25729 -0.0225862">
+                <Children>
+                    <Child ID="6" />
+                </Children>
+                <Shape ID="13" />
+                <Shape ID="14" />
+                <Shape ID="15" />
+                <Shape ID="12" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Grab" EntityType="Object">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="HitDamageAmount" Value="5" />
+        <Var Name="HitDamageStrength" Value="1" />
+        <Var Name="MinHitDamageSpeed" Value="3" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="IsFood" Value="false" />
+        <Var Name="GrabUseDepth" Value="false" />
+        <Var Name="GrabDepth" Value="1" />
+        <Var Name="GrabDepthInc" Value="0.15" />
+        <Var Name="GrabMinDepth" Value="1.0" />
+        <Var Name="GrabMaxDepth" Value="2.2" />
+        <Var Name="GrabUseOffset" Value="false" />
+        <Var Name="GrabPositionOffset" Value="0" />
+        <Var Name="GrabRotationOffset" Value="0" />
+        <Var Name="GrabThrowImpulse" Value="10" />
+        <Var Name="GrabMassMul" Value="0.1" />
+        <Var Name="GrabForceMul" Value="1" />
+        <Var Name="GrabTorqueMul" Value="1" />
+        <Var Name="GrabUseRotation" Value="true" />
+        <Var Name="GrabSkipNonOuterBodies" Value="false" />
+    </UserDefinedVariables>
+</Entity>

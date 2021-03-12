@@ -1,0 +1,8 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH01L12_GirlChase01bs_01.ogg" EffectSound="fb_sfx_12_chasinggirl01.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH01L12_GirlChase01_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L12_GirlChase01_01" />
+		<Voice VoiceSound="flashbacks/CH01L12_GirlChase01as_01.ogg" EffectSound="" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH01L12_GirlChase01_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L12_GirlChase01_02" />
+	</Voices>
+</Flashback>

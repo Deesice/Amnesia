@@ -1,0 +1,11 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/Random_Escapeebs_01.ogg" EffectSound="fb_sfx_random_escapee.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/Random_Escapee_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Escapee_01" />
+		<Voice VoiceSound="flashbacks/Random_Escapee_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Escapee_02" />
+		<Voice VoiceSound="flashbacks/Random_Escapee_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Escapee_03" />
+		<Voice VoiceSound="flashbacks/Random_Escapee_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Escapee_04" />
+		<Voice VoiceSound="flashbacks/Random_Escapee_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Escapee_05" />
+		<Voice VoiceSound="flashbacks/Random_Escapeeas_05.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

@@ -1,0 +1,8 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerCagebs_01.ogg" EffectSound="fb_sfx_23_cage.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerCage_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerCage_01" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerCage_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerCage_02" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerCageas_02.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

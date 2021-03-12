@@ -1,0 +1,59 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.0253651 0.775906 180" CameraTarget="0.0253651 0.775906 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.828035 1.63407 1.45429" CameraTarget="-0.0800131 0.846117 0.161656" CameraZoom="3.38813" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/gameplay/oil_barrel/oil_barrel.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="base" Rotation="0 0 0" Scale="1.3 1.3 1.3" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="tap" Rotation="0 0 0" Scale="1.3 1.3 1.3" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="3" Name="BodyShape_1" RelativeRotation="0 0 0" RelativeScale="0.21 1.3 0.21" RelativeTranslation="0.133247 -0.120571 -6.90522e-005" Rotation="0 0 0" Scale="0.273 1.69 0.273" ShapeType="Cylinder" Tag="" WorldPos="0.000316052 0.845716 -2.07156e-005" />
+            <BodyShape Active="true" ID="4" Name="BodyShape_2" RelativeRotation="-0.785398 0 0" RelativeScale="0.13 0.07 0.07" RelativeTranslation="-0.133247 0.0476246 6.90521e-005" Rotation="-0.785398 0 0" Scale="0.169 0.091 0.091" ShapeType="Box" Tag="" WorldPos="-0.346126 1.06437 0.00015882" />
+            <BodyShape Active="true" ID="5" Name="BodyShape_3" RelativeRotation="0 0 0" RelativeScale="0.01 0.06 0.07" RelativeTranslation="-0.133247 0.120571 6.90521e-005" Rotation="0 0 0" Scale="0.013 0.078 0.091" ShapeType="Box" Tag="" WorldPos="-0.346126 1.1592 0.00015882" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="6" LinearDamping="0" Mass="0" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1.3 1.3 1.3" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.172905 1.00246 6.90522e-005">
+                <Children>
+                    <Child ID="0" />
+                    <Child ID="1" />
+                </Children>
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="OilBarrel">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="FillSound" Value="oil_tank_fill" />
+        <Var Name="EmptySound" Value="oil_tank_empty" />
+    </UserDefinedVariables>
+</Entity>

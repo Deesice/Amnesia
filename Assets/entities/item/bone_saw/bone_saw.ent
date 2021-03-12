@@ -1,0 +1,60 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.050000 1000.000000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.200000 0.200000 0.200000 1.000000" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="0" UsingEnlargedViewport="false">
+            <Viewport CameraPosition="-0.022521 0.117544 180.000000" CameraTarget="-0.022521 0.117544 0.000000" CameraZoom="4.474999" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="3.899998" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.000000 180.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="3.999998" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.065680 0.239699 0.355800" CameraTarget="-0.065838 -0.099436 -0.042387" CameraZoom="4.560130" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="Puzzle" EntityType="Item">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="SubItemTypeName" Value="BoneSaw" />
+        <Var Name="ImageFile" Value="C:/Users/Skywolf/Desktop/FrictionalGames09-2008/frictionalSVN/lux/redist/graphics/item/bone_saw.tga" />
+        <Var Name="PickSound" Value="Generic" />
+        <Var Name="TempVar" Value="0" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="entities/item/bone_saw/bone_saw.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="polySurface1" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="13" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="1" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.300000 0.050000 0.030000" RelativeTranslation="0.030356 0.040350 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.300000 0.050000 0.030000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.028906 0.122655 0.002347" />
+            <BodyShape Active="true" GroupID="0" ID="2" Name="Shape_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.220000 0.025000 0.010000" RelativeTranslation="-0.066929 -0.052850 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.220000 0.025000 0.010000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="-0.068379 0.029455 0.002347" />
+            <BodyShape Active="true" GroupID="0" ID="3" Name="Shape_3" RelativeRotation="0.000000 0.000000 1.047198" RelativeScale="0.100000 0.025000 0.010000" RelativeTranslation="-0.144531 0.004391 0.000000" Rotation="0.000000 0.000000 1.047198" Scale="0.100000 0.025000 0.010000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="-0.145981 0.086696 0.002347" />
+            <BodyShape Active="true" GroupID="0" ID="4" Name="Shape_4" RelativeRotation="0.000000 0.000000 1.570796" RelativeScale="0.100000 0.025000 0.010000" RelativeTranslation="0.003603 0.004391 0.000000" Rotation="0.000000 0.000000 1.570796" Scale="0.100000 0.025000 0.010000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.002153 0.086696 0.002347" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" BuoyancyDensityMul="1.000000" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" HasGravity="true" ID="5" LinearDamping="0.000000" Mass="3.000000" Material="Generic_Hard" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.001450 0.082305 0.002347">
+                <Shape ID="1" />
+                <Shape ID="4" />
+                <Shape ID="3" />
+                <Shape ID="2" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

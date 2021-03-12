@@ -1,0 +1,83 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="0" UsingEnlargedViewport="false">
+            <Viewport CameraPosition="-0.027737 1.19267 180" CameraTarget="-0.027737 1.19267 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0.888253 3.04103 1.02968" CameraTarget="-0.764733 1.38804 -0.623311" CameraZoom="2.86013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/door/castle_portcullis/castle_portcullis.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="portcullis" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="polySurface27" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="2" Material="" Name="polySurface26" Rotation="0 0 0" Scale="1 1 1" SubMeshID="2" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="3" Material="" Name="polySurface25" Rotation="0 0 0" Scale="1 1 1" SubMeshID="3" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="4" Material="" Name="polySurface24" Rotation="0 0 0" Scale="1 1 1" SubMeshID="4" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="5" Material="" Name="polySurface22" Rotation="0 0 0" Scale="1 1 1" SubMeshID="5" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="6" Material="" Name="polySurface21" Rotation="0 0 0" Scale="1 1 1" SubMeshID="6" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="7" Material="" Name="polySurface19" Rotation="0 0 0" Scale="1 1 1" SubMeshID="7" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="8" Material="" Name="polySurface18" Rotation="0 0 0" Scale="1 1 1" SubMeshID="8" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="9" Material="" Name="polySurface17" Rotation="0 0 0" Scale="1 1 1" SubMeshID="9" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="10" Material="" Name="polySurface15" Rotation="0 0 0" Scale="1 1 1" SubMeshID="10" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="11" Material="" Name="polySurface14" Rotation="0 0 0" Scale="1 1 1" SubMeshID="11" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="12" Material="" Name="polySurface13" Rotation="0 0 0" Scale="1 1 1" SubMeshID="12" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="13" Material="" Name="polySurface12" Rotation="0 0 0" Scale="1 1 1" SubMeshID="13" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="14" Material="" Name="polySurface11" Rotation="0 0 0" Scale="1 1 1" SubMeshID="14" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="15" Material="" Name="polySurface10" Rotation="0 0 0" Scale="1 1 1" SubMeshID="15" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="16" Material="" Name="polySurface9" Rotation="0 0 0" Scale="1 1 1" SubMeshID="16" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="17" Material="" Name="polySurface8" Rotation="0 0 0" Scale="1 1 1" SubMeshID="17" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="18" Material="" Name="polySurface23" Rotation="0 0 0" Scale="1 1 1" SubMeshID="18" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="19" Material="" Name="polySurface20" Rotation="0 0 0" Scale="1 1 1" SubMeshID="19" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="20" Name="Shape_1" RelativeRotation="0 0 0" RelativeScale="1.7 2.7 0.25" RelativeTranslation="0 0 0" Rotation="0 0 0" Scale="1.7 2.7 0.25" ShapeType="Box" Tag="" WorldPos="0 1.47004 0" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="21" LinearDamping="0" Mass="0" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="true" WorldPos="0 1.47004 0">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="20" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="MoveObject">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="move_gate" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="MoveObjectType" Value="Linear" />
+        <Var Name="OpenAmount" Value="0.9" />
+        <Var Name="MoveAxis" Value="Y" />
+        <Var Name="OpenAcc" Value="1" />
+        <Var Name="OpenSpeed" Value="0.5" />
+        <Var Name="CloseAcc" Value="1" />
+        <Var Name="CloseSpeed" Value="0.9" />
+        <Var Name="AutoMove" Value="false" />
+        <Var Name="AutoMoveStateGoal" Value="0.0" />
+        <Var Name="AutoMoveAcc" Value="9.0" />
+        <Var Name="AutoMoveSpeed" Value="5.0" />
+        <Var Name="AutoMoveSlowdownDist" Value="0.1" />
+    </UserDefinedVariables>
+</Entity>

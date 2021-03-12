@@ -1,0 +1,57 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.050000 1000.000000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.200000 0.200000 0.200000 1.000000" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 100.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="100.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0.000000 100.000000 0.100000" CameraTarget="0.000000 0.000000 0.100000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-1.022841 0.298633 0.044335" CameraTarget="0.358266 0.062081 0.358702" CameraZoom="3.550126" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/gameplay/crank_wood/gameplay_crank_no_mount.dae">
+            <SubMesh Active="true" ID="9" Material="" Name="crank_wood_crank" Rotation="0.000000 1.570796 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="2" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.085000 0.450000 0.085000" RelativeTranslation="-0.002203 0.000000 -0.112647" Rotation="0.000000 0.000000 0.000000" Scale="0.085000 0.450000 0.085000" ShapeType="Box" Tag="" WorldPos="-0.002203 0.000000 0.137353" />
+            <BodyShape Active="true" ID="4" Name="Shape_3" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.050000 0.050000 0.150000" RelativeTranslation="0.000233 0.182434 -0.040818" Rotation="0.000000 0.000000 0.000000" Scale="0.050000 0.050000 0.150000" ShapeType="Box" Tag="" WorldPos="0.000233 0.182434 0.209182" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.500000" BlocksSound="false" BuoyancyDensityMul="1.000000" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="5" LinearDamping="0.000000" Mass="5.000000" Material="Wood" MaxAngularSpeed="2.500000" MaxLinearSpeed="0.000000" Name="Body" PushedByCharacterGravity="false" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000000 0.000000 0.250000">
+                <Children>
+                    <Child ID="9" />
+                </Children>
+                <Shape ID="4" />
+                <Shape ID="2" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Puzzle" EntityType="Item">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="SubItemTypeName" Value="WoodenCrank" />
+        <Var Name="ImageFile" Value="wood_crank" />
+        <Var Name="PickSound" Value="Generic" />
+        <Var Name="TempVar" Value="0" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,58 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig SelectedViewport="0" UsingEnlargedViewport="false">
+            <Viewport CameraPosition="-0.200000 1.200000 20.000000" CameraTarget="-0.200000 1.200000 0.000000" CameraZoom="2.266291" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="20.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 20.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.102413 0.580361 3.605058" CameraTarget="-0.008081 -0.177355 -0.028822" CameraZoom="2.599999" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+        <GlobalLightConfig AmbientLight="false" PointLight="false" />
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="MoveObject">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="gameplay_move_shelf" />
+        <Var Name="RandomizeAnimationStart" Value="false" />
+        <Var Name="MoveObjectType" Value="Linear" />
+        <Var Name="OpenAmount" Value="0.9" />
+        <Var Name="MoveAxis" Value="Y" />
+        <Var Name="OpenAcc" Value="6.0" />
+        <Var Name="OpenSpeed" Value="0.9" />
+        <Var Name="CloseAcc" Value="6.0" />
+        <Var Name="CloseSpeed" Value="0.8" />
+        <Var Name="AutoMove" Value="false" />
+        <Var Name="AutoMoveStateGoal" Value="0.0" />
+        <Var Name="AutoMoveAcc" Value="0.5" />
+        <Var Name="AutoMoveSpeed" Value="0.1" />
+        <Var Name="AutoMoveSlowdownDist" Value="0.2" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="E:/lux/redist/entities/door/safety_large_vert/safety_large_vert.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="polySurface12" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="11" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="1" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="4.000000 3.000000 0.300000" RelativeTranslation="0.000000 0.000000 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="4.000000 2.700000 0.300000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="8" WorldPos="0.000000 1.377214 0.000000" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" ID="2" LinearDamping="0.000000" Mass="0.00000" Material="Wood_Heavy" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body_1" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 0.900000 1.000000" Tag="" Type="9" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000000 1.377214 0.000000">
+                <Shape ID="1" />
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

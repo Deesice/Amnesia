@@ -1,0 +1,9 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L20_PrisonerTransportedbs_01.ogg" EffectSound="fb_sfx_20_transported.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L20_PrisonerTransported_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L20_PrisonerTransported_01" />
+		<Voice VoiceSound="flashbacks/CH02L20_PrisonerTransported_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L20_PrisonerTransported_02" />
+		<Voice VoiceSound="flashbacks/CH02L20_PrisonerTransported_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L20_PrisonerTransported_03" />
+		<Voice VoiceSound="flashbacks/CH02L20_PrisonerTransportedas_03.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

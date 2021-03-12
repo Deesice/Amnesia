@@ -1,0 +1,76 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0.0948902 1.72382 -3.04107" CameraTarget="0 0 0" CameraZoom="2.66013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/debris/rock/rock_med02.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="stone_med02_mesh" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="1" Name="Shape_1" RelativeRotation="0 0.698415 0" RelativeScale="0.550704 0.600704 0.600038" RelativeTranslation="0.0164095 0.016305 0.0540935" Rotation="0 0.698415 0" Scale="0.550704 0.600704 0.600038" ShapeType="Box" Tag="" WorldPos="-0.019077 0.313972 0.044537" />
+            <BodyShape Active="true" ID="2" Name="Shape_2" RelativeRotation="0 0.698415 0" RelativeScale="0.250884 0.400704 0.249978" RelativeTranslation="-0.191025 0.016305 -0.293774" Rotation="0 0.698415 0" Scale="0.250884 0.400704 0.249978" ShapeType="Box" Tag="" WorldPos="-0.226511 0.313972 -0.30333" />
+            <BodyShape Active="true" ID="3" Name="Shape_3" RelativeRotation="0 0.698415 0" RelativeScale="0.346474 0.400704 0.249978" RelativeTranslation="0.236185 -0.016305 0.293774" Rotation="0 0.698415 0" Scale="0.346474 0.400704 0.249978" ShapeType="Box" Tag="" WorldPos="0.200699 0.281362 0.284217" />
+            <BodyShape Active="true" ID="4" Name="Shape_4" RelativeRotation="0 0.698415 0" RelativeScale="0.13997 0.400704 0.452496" RelativeTranslation="-0.239715 0.016305 0.243702" Rotation="0 0.698415 0" Scale="0.13997 0.400704 0.452496" ShapeType="Box" Tag="" WorldPos="-0.275201 0.313972 0.234145" />
+            <BodyShape Active="true" ID="5" Name="Shape_5" RelativeRotation="0 0.698415 0" RelativeScale="0.13997 0.400704 0.452496" RelativeTranslation="0.239715 0.016305 -0.159703" Rotation="0 0.698415 0" Scale="0.13997 0.400704 0.452496" ShapeType="Box" Tag="" WorldPos="0.204228 0.313972 -0.16926" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.2" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="6" LinearDamping="0.2" Mass="13" Material="Rock" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.0354865 0.297667 -0.0095565">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Shape ID="5" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Push" EntityType="Object">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="BreakActive" Value="false" />
+        <Var Name="BreakDestroyJoints" Value="false" />
+        <Var Name="BreakMinEnergy" Value="100" />
+        <Var Name="BreakEntity" Value="" />
+        <Var Name="BreakEntityAlignBody" Value="" />
+        <Var Name="BreakSound" Value="" />
+        <Var Name="BreakParticleSystem" Value="" />
+        <Var Name="BreakImpulse" Value="4" />
+        <Var Name="HitDamageAmount" Value="5" />
+        <Var Name="HitDamageStrength" Value="1" />
+        <Var Name="MinHitDamageSpeed" Value="3" />
+        <Var Name="LifeLength" Value="0" />
+        <Var Name="IsFood" Value="false" />
+        <Var Name="PushAtPoint" Value="false" />
+        <Var Name="PushForceMul" Value="1" />
+        <Var Name="PushImpulse" Value="3" />
+    </UserDefinedVariables>
+</Entity>

@@ -1,0 +1,68 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0.4 20" CameraTarget="0 0.4 0" CameraZoom="0.916291" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="20 0 0" CameraTarget="0 0 0" CameraZoom="0.916291" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0 20 0" CameraTarget="0 0 0" CameraZoom="0.916291" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-1.61334 0.904473 0.160159" CameraTarget="-0.118429 0.525037 -0.082897" CameraZoom="3.46647" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/ptest/barrel02/barrel02.dae">
+            <SubMesh Active="true" ID="0" Material="D:/SVN/amnesia/redist/textures/decals/blood_pool01.mat" Name="barrel_mesh" Rotation="0 0 0" Scale="1.2 1.2 1.2" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="2" Name="BodyShape_2" RelativeRotation="0 0 0" RelativeScale="0.39 0.3 0.39" RelativeTranslation="0 -0.00192249 0.0036215" Rotation="0 0 0" Scale="0.39 0.3 0.39" ShapeType="Cylinder" Tag="" WorldPos="0 0.553304 0.007243" />
+            <BodyShape Active="true" ID="3" Name="BodyShape_3" RelativeRotation="0 0 0" RelativeScale="0.35 0.4 0.35" RelativeTranslation="0 -0.352136 -0.0036215" Rotation="0 0 0" Scale="0.35 0.4 0.35" ShapeType="Cylinder" Tag="" WorldPos="0 0.20309 0" />
+            <BodyShape Active="true" ID="4" Name="BodyShape_4" RelativeRotation="0 0 0" RelativeScale="0.35 0.4 0.35" RelativeTranslation="0 0.352136 -0.0036215" Rotation="0 0 0" Scale="0.35 0.4 0.35" ShapeType="Cylinder" Tag="" WorldPos="0 0.907363 0" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.3" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="false" ContinuousCollision="false" HasGravity="false" ID="5" LinearDamping="0.3" Mass="0" Material="Wood_Roll" MaxAngularSpeed="20" MaxLinearSpeed="20" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="false" Volatile="false" WorldPos="0 0.555227 0.0036215">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="MoveObject">
+        <Var Name="Health" Value="80" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="MoveObjectType" Value="Linear" />
+        <Var Name="OpenAmount" Value="1.0" />
+        <Var Name="MoveAxis" Value="Y" />
+        <Var Name="OpenAcc" Value="5.0" />
+        <Var Name="OpenSpeed" Value="1.0" />
+        <Var Name="CloseAcc" Value="5.0" />
+        <Var Name="CloseSpeed" Value="1.0" />
+        <Var Name="AutoMove" Value="false" />
+        <Var Name="AutoMoveStateGoal" Value="0.0" />
+        <Var Name="AutoMoveAcc" Value="9.0" />
+        <Var Name="AutoMoveSpeed" Value="5.0" />
+        <Var Name="AutoMoveSlowdownDist" Value="0.1" />
+    </UserDefinedVariables>
+</Entity>

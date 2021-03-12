@@ -1,0 +1,12 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation02bs_01.ogg" EffectSound="fb_sfx_05_transformation02.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation02_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L05_Transformation02_01" />
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation02as_01.ogg" EffectSound="" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation02_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L05_Transformation02_02" />
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation02as_02.ogg" EffectSound="" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation02_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L05_Transformation02_03" />
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation02_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L05_Transformation02_04" />
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation02_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L05_Transformation02_05" />
+	</Voices>
+</Flashback>

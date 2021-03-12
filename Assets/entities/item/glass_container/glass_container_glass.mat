@@ -1,0 +1,18 @@
+<Material>
+    <Main BlendMode="PremulAlpha" DepthTest="true" PhysicsMaterial="Default" Type="translucent" UseAlpha="false" />
+    <TextureUnits>
+        <Diffuse AnimFrameTime="0" AnimMode="None" Compress="true" File="G:/amnesia/redist/entities/item/glass_container/glass_container_glass.dds" MipMaps="true" Type="2D" Wrap="Repeat" />
+        <CubeMap AnimFrameTime="0" AnimMode="None" Compress="true" File="G:/amnesia/redist/textures/envmaps/water_dungeon_cubemap.dds" MipMaps="true" Type="Cube" Wrap="Repeat" />
+    </TextureUnits>
+    <SpecificVariables>
+        <Var Name="Refraction" Value="true" />
+        <Var Name="RefractionEdgeCheck" Value="true" />
+        <Var Name="RefractionNormals" Value="true" />
+        <Var Name="RefractionScale" Value="0.0099999997764825821" />
+        <Var Name="FrenselBias" Value="0.019999999552965164" />
+        <Var Name="FrenselPow" Value="10" />
+        <Var Name="RimLightMul" Value="0.60000002384185791" />
+        <Var Name="RimLightPow" Value="5" />
+        <Var Name="AffectedByLightLevel" Value="true" />
+    </SpecificVariables>
+</Material>

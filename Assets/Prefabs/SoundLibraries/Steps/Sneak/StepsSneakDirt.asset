@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsSneakDirt
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 0b3c5c07ade13a44abf8bc57ed599b5d, type: 3}
+  - {fileID: 8300000, guid: cbc276b626f279d44b340b1b5ee1e09f, type: 3}
+  - {fileID: 8300000, guid: 1331f678c47640641a22ca6426b5f1ab, type: 3}
+  - {fileID: 8300000, guid: 1359ec1cb62789748a9b5954430d2947, type: 3}
+  - {fileID: 8300000, guid: 10e2bdcc9cb6f294ca136311ab8257a2, type: 3}
+  volume: 0.3

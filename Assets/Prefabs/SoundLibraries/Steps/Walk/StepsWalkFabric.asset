@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsWalkFabric
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 9eb6c4b83a58c0347a11f2d10b1ffdef, type: 3}
+  - {fileID: 8300000, guid: b964c899e0083824cab669a8d10db45f, type: 3}
+  - {fileID: 8300000, guid: 8ff50e3a420bff4448faa117903b69f4, type: 3}
+  - {fileID: 8300000, guid: 7e2b2896dadeb414282fa93d4f530dc7, type: 3}
+  - {fileID: 8300000, guid: 46573e515ce0e034897b7aa32b38b698, type: 3}
+  volume: 0.7

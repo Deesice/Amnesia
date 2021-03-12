@@ -1,0 +1,57 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.050000 1000.000000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.200000 0.200000 0.200000 1.000000" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 180.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0.000000 180.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-7.457217 2.297511 7.033849" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="1.560133" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="StaticProp" />
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="entities/furniture/stove_dungeon_front01/stove_dungeon_front01.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="pPlane1" Rotation="1.570796 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="13" WorldPos="0.000000 0.805845 0.029964" />
+            <SubMesh Active="true" GroupID="0" ID="1" Name="coal_pile01" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="1" Tag="" Type="13" WorldPos="-0.129574 0.000000 0.736827" />
+            <SubMesh Active="true" GroupID="0" ID="2" Name="pPlane2" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="2" Tag="" Type="13" WorldPos="0.000000 -0.053383 -1.002900" />
+            <SubMesh Active="true" GroupID="0" ID="3" Name="pPlane3" Rotation="0.000000 1.570796 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="3" Tag="" Type="13" WorldPos="-1.771150 -0.051383 0.768249" />
+            <SubMesh Active="true" GroupID="0" ID="4" Name="pPlane4" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="4" Tag="" Type="13" WorldPos="0.000000 0.002000 0.000000" />
+            <SubMesh Active="true" GroupID="0" ID="5" Name="pPlane5" Rotation="3.141593 -0.000000 3.141593" Scale="1.000000 1.000000 1.000000" SubMeshID="5" Tag="" Type="13" WorldPos="0.000000 0.004000 1.536490" />
+            <SubMesh Active="true" GroupID="0" ID="6" Name="stove_dungeon_front01" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="6" Tag="" Type="13" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="8" Name="Shape_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.969645 2.000000 1.532676" RelativeTranslation="1.172540 -0.999138 -0.012816" Rotation="0.000000 0.000000 0.000000" Scale="0.969645 2.000000 1.532676" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="1.158906 1.000000 0.740702" />
+            <BodyShape Active="true" GroupID="0" ID="9" Name="Shape_3" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.969645 2.000000 1.532676" RelativeTranslation="-1.172540 -0.999138 -0.012816" Rotation="0.000000 0.000000 0.000000" Scale="0.969645 2.000000 1.532676" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="-1.186175 1.000000 0.740702" />
+            <BodyShape Active="true" GroupID="0" ID="10" Name="Shape_4" RelativeRotation="0.000000 0.000000 1.570796" RelativeScale="0.369645 2.000000 1.532676" RelativeTranslation="0.013634 -0.344264 -0.012518" Rotation="0.000000 0.000000 1.570796" Scale="0.369645 2.000000 1.532676" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000000 1.654875 0.741000" />
+            <BodyShape Active="true" GroupID="0" ID="11" Name="Shape_5" RelativeRotation="0.000000 0.000000 1.570796" RelativeScale="0.619645 2.670063 1.154322" RelativeTranslation="0.013634 0.097701 -0.193047" Rotation="0.000000 0.000000 1.570796" Scale="0.619645 2.670063 1.154322" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000000 2.096839 0.560471" />
+            <BodyShape Active="true" GroupID="0" ID="12" Name="Shape_6" RelativeRotation="0.000000 0.000000 1.570796" RelativeScale="1.619645 2.125014 1.124800" RelativeTranslation="0.013634 1.189316 -0.261266" Rotation="0.000000 0.000000 1.570796" Scale="1.619645 2.125014 1.124800" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000000 3.188454 0.492252" />
+            <BodyShape Active="true" GroupID="0" ID="13" Name="Shape_7" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="1.499000 0.100000 1.500979" RelativeTranslation="0.013634 -1.165976 0.073176" Rotation="0.000000 0.000000 0.000000" Scale="1.499000 0.100000 1.500979" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000000 0.833162 0.826694" />
+            <BodyShape Active="true" GroupID="0" ID="14" Name="Shape_8" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="1.499000 0.100000 1.500979" RelativeTranslation="0.013634 -1.943249 0.073176" Rotation="0.000000 0.000000 0.000000" Scale="1.499000 0.100000 1.500979" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000000 0.055889 0.826694" />
+            <BodyShape Active="true" GroupID="0" ID="15" Name="Shape_9" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.646019 0.150000 0.608228" RelativeTranslation="0.080241 -1.811699 0.073176" Rotation="0.000000 0.000000 0.000000" Scale="0.646019 0.150000 0.608228" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.066606 0.187439 0.826694" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" BuoyancyDensityMul="1.000000" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" HasGravity="false" ID="16" LinearDamping="0.000000" Mass="0.000000" Material="Rock" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.013634 1.999138 0.753518">
+                <Shape ID="12" />
+                <Shape ID="11" />
+                <Shape ID="8" />
+                <Shape ID="10" />
+                <Shape ID="9" />
+                <Shape ID="13" />
+                <Shape ID="15" />
+                <Shape ID="14" />
+                <Children>
+                    <Child ID="6" />
+                    <Child ID="5" />
+                    <Child ID="4" />
+                    <Child ID="3" />
+                    <Child ID="2" />
+                    <Child ID="1" />
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

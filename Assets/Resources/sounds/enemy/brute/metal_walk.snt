@@ -1,0 +1,15 @@
+<SOUNDENTITY>
+  <SOUNDS>
+  	<Main>
+  		<Sound File="brute/metal_walk01" />
+  		<Sound File="brute/metal_walk02" />
+  		<Sound File="brute/metal_walk03" />
+  		<Sound File="brute/metal_walk04" />
+		<Sound File="brute/metal_walk05" />
+  		<Sound File="brute/metal_walk06" />
+  		<Sound File="brute/metal_walk07" />
+  		<Sound File="brute/metal_walk08" />
+  	</Main>
+  </SOUNDS>
+  <PROPERTIES Volume="0.4" MinDistance="0" MaxDistance="18" Random="1" Interval="0" FadeEnd="False" FadeStart="False" Stream="false" Loop="false" Use3D="True" Blockable="True" BlockVolumeMul="0.7" Priority="0" />
+</SOUNDENTITY>

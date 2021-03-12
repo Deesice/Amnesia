@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsSneakRockReverb
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 5e7e57cc78beb7d46bcab7197ea98ba3, type: 3}
+  - {fileID: 8300000, guid: 449ebe62bcd82114f91526d8b8768b43, type: 3}
+  - {fileID: 8300000, guid: bf6cc522c05a66d40b3ed75fa79ea991, type: 3}
+  - {fileID: 8300000, guid: fdfdb8fd55647234d9611754dbe1c257, type: 3}
+  - {fileID: 8300000, guid: 0d7193c0fa7aa9f4797eb222f2e3a568, type: 3}
+  volume: 0.3

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsSneakHardWater
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 32af5f157d2c90c489e98409b9882baa, type: 3}
+  - {fileID: 8300000, guid: cbd4747e4c34d0b44838f598e156722b, type: 3}
+  - {fileID: 8300000, guid: fe540beead7618e47bf7c342d56891e3, type: 3}
+  - {fileID: 8300000, guid: c1c8b0459d81cee4a915f280fc6ee8ca, type: 3}
+  - {fileID: 8300000, guid: 95c0c305313416c4f92883090f0be6f8, type: 3}
+  volume: 0.3

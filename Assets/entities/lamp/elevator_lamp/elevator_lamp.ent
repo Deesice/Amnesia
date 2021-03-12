@@ -1,0 +1,69 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.065034 0.538177 180.000000" CameraTarget="0.065034 0.538177 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="180.000000 0.555765 -0.014065" CameraTarget="0.000000 0.555765 -0.014065" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 180.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.000000" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="1.034174 0.635481 -0.497558" CameraTarget="-0.258452 0.627994 -0.055378" CameraZoom="3.600001" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="" EntityType="Lamp">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="0.25" />
+        <Var Name="EffectsOffTime" Value="0.25" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="CanBeLitByPlayer" Value="false" />
+        <Var Name="CanBeGrabbed" Value="false" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities>
+            <PointLight Active="true" CastShadows="true" DiffuseColor="0.700000 0.450000 0.130000 1.000000" FalloffMap="" FlickerActive="false" FlickerFade="false" FlickerOffColor="0.000000 0.000000 0.000000 1.000000" FlickerOffFadeMaxLength="0.000000" FlickerOffFadeMinLength="0.000000" FlickerOffMaxLength="0.000000" FlickerOffMinLength="0.000000" FlickerOffPS="" FlickerOffRadius="0.000000" FlickerOffSound="" FlickerOnFadeMaxLength="0.000000" FlickerOnFadeMinLength="0.000000" FlickerOnMaxLength="0.000000" FlickerOnMinLength="0.000000" FlickerOnPS="" FlickerOnSound="" Gobo="" GoboAnimFrameTime="0.000000" GoboAnimMode="None" GroupID="0" ID="9" Name="PointLight_1" Radius="10.000000" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" ShadowResolution="Low" ShadowsAffectDynamic="false" ShadowsAffectStatic="true" SubType="1" Tag="" Type="1" WorldPos="0.001197 0.549076 -0.001197" />
+            <ParticleSystem Active="true" Color="1.000000 1.000000 1.000000 1.000000" FadeAtDistance="false" File="ps_fire_candle_large.ps" GroupID="0" ID="10" MaxFadeDistanceEnd="110.000000" MaxFadeDistanceStart="100.000000" MinFadeDistanceEnd="1.000000" MinFadeDistanceStart="2.000000" Name="ParticleSystem_1" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="5" WorldPos="0.007235 0.460944 0.002944" />
+            <Billboard Active="true" Axis="0.000000 1.000000 0.000000" BillboardColor="1.000000 1.000000 1.000000 1.000000" BillboardOffset="0.000000" BillboardSize="1.500000 1.500000" BillboardType="Point" ConnectLight="PointLight_1" GroupID="0" HaloSourceSize="0.200000 0.200000 0.200000" ID="11" IsHalo="true" MaterialFile="billboards/halo_torch.mat" Name="Billboard_1" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="3" WorldPos="0.026037 0.582110 0.000000" />
+        </Entities>
+        <Mesh Filename="entities/lamp/elevator_lamp/elevator_lamp.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="pCube2" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="13" WorldPos="0.000000 0.000000 0.000000" />
+            <SubMesh Active="true" GroupID="0" ID="1" Name="polySurface152" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="1" Tag="" Type="13" WorldPos="0.000000 0.000000 0.000000" />
+            <SubMesh Active="true" GroupID="0" ID="2" Name="polySurface153" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="2" Tag="" Type="13" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="3" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.350000 1.000000 0.350000" RelativeTranslation="0.000000 0.000000 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.350000 1.000000 0.350000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.002337 0.529439 0.000000" />
+            <BodyShape Active="true" GroupID="0" ID="4" Name="Shape_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.035000 0.035000 0.400000" RelativeTranslation="-0.000000 0.000000 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.035000 0.035000 0.400000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.001604 1.275315 -0.091431" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" HasGravity="true" ID="5" LinearDamping="0.000000" Mass="0.000000" Material="Wood" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body_1" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="0.001604 1.275315 -0.091431">
+                <Shape ID="4" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+            <Body Active="true" AngularDamping="1.000000" BlocksSound="false" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" HasGravity="true" ID="6" LinearDamping="1.000000" Mass="0.500000" Material="Wood" MaxAngularSpeed="35.000000" MaxLinearSpeed="0.000000" Name="Body_2" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="0.002337 0.529439 0.000000">
+                <Shape ID="3" />
+                <Children>
+                    <Child ID="1" />
+                    <Child ID="2" />
+                    <Child ID="9" />
+                    <Child ID="10" />
+                    <Child ID="11" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointBall Active="true" BreakForce="0.000000" BreakSound="" Breakable="false" CollideBodies="true" ConnectedChildBodyID="6" ConnectedParentBodyID="-1" GroupID="0" ID="8" LimitStepCount="0" MaxConeAngle="0.000000" MaxLimitMaxSpeed="0.000000" MaxLimitMinSpeed="0.000000" MaxLimitSound="" MaxMoveFreq="1.100000" MaxMoveFreqSpeed="0.700000" MaxMoveSpeed="2.000000" MaxMoveVolume="0.800000" MaxTwistAngle="0.000000" MiddleMoveSpeed="0.500000" MiddleMoveVolume="0.500000" MinLimitMaxSpeed="0.000000" MinLimitMinSpeed="0.000000" MinLimitSound="" MinMoveFreq="0.950000" MinMoveFreqSpeed="0.200000" MinMoveSpeed="0.100000" MinMoveVolume="0.010000" MoveSound="" MoveType="Linear" Name="BallJoint_1" PinDir="0.000000 1.000000 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" StickyMaxLimit="false" StickyMinLimit="false" SubType="0" Tag="" Type="12" WorldPos="0.002233 1.275025 -0.003452" />
+        </Joints>
+    </ModelData>
+</Entity>

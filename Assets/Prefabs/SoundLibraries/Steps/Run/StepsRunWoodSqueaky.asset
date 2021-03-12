@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsRunWoodSqueaky
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: dc6fcf5254ac9a44a8b56a432f4133e8, type: 3}
+  - {fileID: 8300000, guid: e5267b67ae7ef2142a4135b96718733a, type: 3}
+  - {fileID: 8300000, guid: f6b51db7ca692d54c8f1b9710b177af4, type: 3}
+  - {fileID: 8300000, guid: 6caa1f3fb442a5d48b333d4bbe565d11, type: 3}
+  - {fileID: 8300000, guid: fec9fe509a766d94580da45c78cb958e, type: 3}
+  volume: 0.6

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsWalkRock
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 31f099b316f0c2b44b4c359dde759d07, type: 3}
+  - {fileID: 8300000, guid: 6e3eb868613f5a84eacdda7ba8879636, type: 3}
+  - {fileID: 8300000, guid: a026062a3f5988a44bf650504453a66d, type: 3}
+  - {fileID: 8300000, guid: 861be57b5256e4a438a4b4f1da9e2f4e, type: 3}
+  - {fileID: 8300000, guid: 763a4cbc67d304c48a391cde635c0d0e, type: 3}
+  volume: 0.7

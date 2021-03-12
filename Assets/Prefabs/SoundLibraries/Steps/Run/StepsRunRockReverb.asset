@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsRunRockReverb
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: bdcb8a8b00546ce4f9acdc49e257b8ae, type: 3}
+  - {fileID: 8300000, guid: f2772d1ac551de840806d9f862888472, type: 3}
+  - {fileID: 8300000, guid: f07b42157cdd14c438d4227bceac99da, type: 3}
+  - {fileID: 8300000, guid: 7c6d9d2ad470685449e5869eb5daed30, type: 3}
+  - {fileID: 8300000, guid: d9a2ecb5c33782c479025005ffcfdb98, type: 3}

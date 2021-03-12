@@ -1,0 +1,17 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDraggedbs_01.ogg" EffectSound="fb_sfx_23_dragged.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_01" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_02" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_03" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_04" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_05" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_06.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_06" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_07.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_07" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_08.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_08" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_09.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_09" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_10.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_10" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDragged_11.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L23_PrisonerDragged_11" />
+		<Voice VoiceSound="flashbacks/CH02L23_PrisonerDraggedas_11.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

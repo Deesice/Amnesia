@@ -1,0 +1,15 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06bs_01.ogg" EffectSound="fb_sfx_22_journey.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L22_JourneyToSanctum06_01" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L22_JourneyToSanctum06_02" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L22_JourneyToSanctum06_03" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L22_JourneyToSanctum06_04" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L22_JourneyToSanctum06_05" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06_06.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L22_JourneyToSanctum06_06" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06_07.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L22_JourneyToSanctum06_07" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06_08.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L22_JourneyToSanctum06_08" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06_09.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L22_JourneyToSanctum06_09" />
+		<Voice VoiceSound="flashbacks/CH02L22_JourneyToSanctum06as_09.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

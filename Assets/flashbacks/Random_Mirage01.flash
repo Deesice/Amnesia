@@ -1,0 +1,11 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/Random_Mirage01bs_01.ogg" EffectSound="fb_sfx_random_mirage01.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/Random_Mirage01_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Mirage01_01" />
+		<Voice VoiceSound="flashbacks/Random_Mirage01_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Mirage01_02" />
+		<Voice VoiceSound="flashbacks/Random_Mirage01_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Mirage01_03" />
+		<Voice VoiceSound="flashbacks/Random_Mirage01_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Mirage01_04" />
+		<Voice VoiceSound="flashbacks/Random_Mirage01_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Mirage01_05" />
+		<Voice VoiceSound="flashbacks/Random_Mirage01as_05.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

@@ -1,0 +1,12 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L18_CisternVisitbs_01.ogg" EffectSound="fb_sfx_18_cistern_visit.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L18_CisternVisit_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L18_CisternVisit_01" />
+		<Voice VoiceSound="flashbacks/CH02L18_CisternVisit_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L18_CisternVisit_02" />
+		<Voice VoiceSound="flashbacks/CH02L18_CisternVisit_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L18_CisternVisit_03" />
+		<Voice VoiceSound="flashbacks/CH02L18_CisternVisit_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L18_CisternVisit_04" />
+		<Voice VoiceSound="flashbacks/CH02L18_CisternVisit_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L18_CisternVisit_05" />
+		<Voice VoiceSound="flashbacks/CH02L18_CisternVisit_06.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L18_CisternVisit_06" />
+		<Voice VoiceSound="flashbacks/CH02L18_CisternVisitas_06.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

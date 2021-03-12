@@ -1,0 +1,55 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.050000 1000.000000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.200000 0.200000 0.200000 1.000000" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 20.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="20.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0.000000 20.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0.007873 0.505052 -0.605101" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="4.150004" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="Coins" EntityType="Item">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="2.2" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="SubItemTypeName" Value="CoinsSmall" />
+        <Var Name="ImageFile" Value="coins_small.tga" />
+        <Var Name="PickSound" Value="Gold" />
+        <Var Name="CoinAmount" Value="10" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="entities/item/coins_small/coins_small.dae">
+            <SubMesh Active="true" GroupID="0" ID="3" Name="coins_small" Rotation="0.000000 0.000000 0.000000" Scale="1.750000 1.750000 1.750000" SubMeshID="0" Tag="" Type="13" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="4" Name="Shape_1" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.080000 0.060000 0.050000" RelativeTranslation="0.000000 -0.032445 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.140000 0.105000 0.087500" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000000 0.054967 0.000000" />
+            <BodyShape Active="true" GroupID="0" ID="5" Name="Shape_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.035000 0.037000 0.020000" RelativeTranslation="0.000000 0.052570 0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.061250 0.064750 0.035000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.000000 0.139982 0.000000" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.300000" BlocksSound="false" BuoyancyDensityMul="1.000000" CanAttachCharacter="true" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" HasGravity="true" ID="6" LinearDamping="0.300000" Mass="1.000000" Material="Generic_Soft" MaxAngularSpeed="8.000000" MaxLinearSpeed="8.000000" Name="Body" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="1.750000 1.750000 1.750000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="0.000000 0.087412 0.000000">
+                <Shape ID="5" />
+                <Shape ID="4" />
+                <Children>
+                    <Child ID="3" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

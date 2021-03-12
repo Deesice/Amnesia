@@ -1,0 +1,10 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L15_Interrogationbs_01.ogg" EffectSound="fb_sfx_15_interrogation.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L15_Interrogation_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_Interrogation_01" />
+		<Voice VoiceSound="flashbacks/CH02L15_Interrogation_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_Interrogation_02" />
+		<Voice VoiceSound="flashbacks/CH02L15_Interrogation_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_Interrogation_03" />
+		<Voice VoiceSound="flashbacks/CH02L15_Interrogation_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_Interrogation_04" />
+		<Voice VoiceSound="flashbacks/CH02L15_Interrogationas_04.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

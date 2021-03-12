@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsRunHardWater
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: ee6e0e1a140955341bef9f750fc78dab, type: 3}
+  - {fileID: 8300000, guid: 1453ee642dab1ad4fa6ad4b1a1bf7a2a, type: 3}
+  - {fileID: 8300000, guid: 918a6e9299ba1084baaf229a5e1455c3, type: 3}
+  - {fileID: 8300000, guid: 9707200a867cda849ae849709a1c5fa1, type: 3}
+  - {fileID: 8300000, guid: f13ec7e4df760ec41817a07d58cb17d2, type: 3}

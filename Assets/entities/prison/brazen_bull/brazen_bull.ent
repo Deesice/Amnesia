@@ -1,0 +1,103 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="-0.020964 0.429767 180" CameraTarget="-0.020964 0.429767 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 1.53738 -0.123929" CameraTarget="0 1.53738 -0.123929" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="1.17949 180 -0.104581" CameraTarget="1.17949 0 -0.104581" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-1.22961 2.86454 -1.9583" CameraTarget="-0.157078 1.37714 -0.0696995" CameraZoom="2.94413" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/prison/brazen_bull/brazen_bull.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="polySurface16" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="1" Material="" Name="polySurface17" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="2" Name="BodyShape_1" RelativeRotation="0 0 0" RelativeScale="0.5 0.75 0.75" RelativeTranslation="0.44446 0.134281 0.0337005" Rotation="0 0 0" Scale="0.5 0.75 0.75" ShapeType="Box" Tag="" WorldPos="0.517315 1.26836 0.02557" />
+            <BodyShape Active="true" ID="3" Name="BodyShape_2" RelativeRotation="0 0 0" RelativeScale="0.8 0.65 0.8" RelativeTranslation="-1.01516 0.168421 0.0122215" Rotation="0 0 0" Scale="0.8 0.65 0.8" ShapeType="Box" Tag="" WorldPos="-0.942304 1.3025 0.004091" />
+            <BodyShape Active="true" ID="4" Name="BodyShape_3" RelativeRotation="0 0 -1.5708" RelativeScale="0.35 0.7 0.8" RelativeTranslation="-0.201868 -0.144832 -0.00789451" Rotation="0 0 -1.5708" Scale="0.35 0.7 0.8" ShapeType="Box" Tag="" WorldPos="-0.129013 0.989247 -0.016025" />
+            <BodyShape Active="true" ID="5" Name="BodyShape_4" RelativeRotation="0 0 0" RelativeScale="0.25 1 0.25" RelativeTranslation="0.44446 -0.61831 -0.287115" Rotation="0 0 0" Scale="0.25 1 0.25" ShapeType="Box" Tag="" WorldPos="0.517315 0.515769 -0.295245" />
+            <BodyShape Active="true" ID="6" Name="BodyShape_5" RelativeRotation="0 0 0" RelativeScale="0.25 1 0.25" RelativeTranslation="0.44446 -0.61831 0.275322" Rotation="0 0 0" Scale="0.25 1 0.25" ShapeType="Box" Tag="" WorldPos="0.517315 0.515769 0.267192" />
+            <BodyShape Active="true" ID="7" Name="BodyShape_6" RelativeRotation="0 0 0" RelativeScale="0.25 1 0.2" RelativeTranslation="-1.29167 -0.61831 0.287115" Rotation="0 0 0" Scale="0.25 1 0.2" ShapeType="Box" Tag="" WorldPos="-1.21882 0.515769 0.278984" />
+            <BodyShape Active="true" ID="8" Name="BodyShape_7" RelativeRotation="0 0 0" RelativeScale="0.25 1 0.2" RelativeTranslation="-1.29167 -0.61831 -0.269518" Rotation="0 0 0" Scale="0.25 1 0.2" ShapeType="Box" Tag="" WorldPos="-1.21882 0.515769 -0.277649" />
+            <BodyShape Active="true" ID="9" Name="BodyShape_8" RelativeRotation="0 0 0" RelativeScale="1 0.75 0.4" RelativeTranslation="-0.238338 0.190081 0.232318" Rotation="0 0 0" Scale="1 0.75 0.4" ShapeType="Box" Tag="" WorldPos="-0.165483 1.32416 0.224188" />
+            <BodyShape Active="true" ID="10" Name="BodyShape_9" RelativeRotation="0 0 0" RelativeScale="1 0.5 0.4" RelativeTranslation="1.00284 0.314 0.00365349" Rotation="0 0 0" Scale="1 0.5 0.4" ShapeType="Box" Tag="" WorldPos="1.07569 1.44808 -0.004477" />
+            <BodyShape Active="true" ID="11" Name="BodyShape_10" RelativeRotation="0.262937 0.777747 1.22272" RelativeScale="0.25 0.1 0.1" RelativeTranslation="1.16618 0.618311 -0.213652" Rotation="0.262937 0.777747 1.22272" Scale="0.25 0.1 0.1" ShapeType="Box" Tag="" WorldPos="1.23903 1.75239 -0.221782" />
+            <BodyShape Active="true" ID="12" Name="BodyShape_11" RelativeRotation="-0.201847 -0.797466 1.49239" RelativeScale="0.25 0.1 0.25" RelativeTranslation="1.16618 0.618311 0.222265" Rotation="-0.201847 -0.797466 1.49239" Scale="0.25 0.1 0.25" ShapeType="Box" Tag="" WorldPos="1.23903 1.75239 0.214135" />
+            <BodyShape Active="true" ID="14" Name="BodyShape_12" RelativeRotation="-0.261799 0 0" RelativeScale="0.7 0.1 0.25" RelativeTranslation="0 0.14034 0.106664" Rotation="-0.261799 0 0" Scale="0.7 0.1 0.25" ShapeType="Box" Tag="" WorldPos="-0.131352 1.65778 -0.140183" />
+            <BodyShape Active="true" ID="15" Name="BodyShape_13" RelativeRotation="-0.872665 0 0" RelativeScale="0.7 0.1 0.25" RelativeTranslation="0 0.0241599 -0.0644485" Rotation="-0.872665 0 0" Scale="0.7 0.1 0.25" ShapeType="Box" Tag="" WorldPos="-0.131352 1.5416 -0.311296" />
+            <BodyShape Active="true" ID="16" Name="BodyShape_14" RelativeRotation="-1.39626 0 0" RelativeScale="0.7 0.1 0.7" RelativeTranslation="0 -0.14034 -0.106664" Rotation="-1.39626 0 0" Scale="0.7 0.1 0.7" ShapeType="Box" Tag="" WorldPos="-0.131352 1.3771 -0.353512" />
+            <BodyShape Active="true" ID="19" Name="BodyShape_15" RelativeRotation="0 0 0" RelativeScale="0.2 0.2 0.2" RelativeTranslation="1.29167 0.0538906 0.00393876" Rotation="0 0 0" Scale="0.2 0.2 0.2" ShapeType="Box" Tag="" WorldPos="1.36453 1.18797 -0.00419173" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="1" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="false" ID="17" LinearDamping="1" Mass="5" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="hatch" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.131352 1.51744 -0.246847">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="16" />
+                <Shape ID="15" />
+                <Shape ID="14" />
+            </Body>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="20" LinearDamping="0" Mass="0" Material="Default" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="bull" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.072855 1.13408 -0.00813049">
+                <Children>
+                    <Child ID="1" />
+                </Children>
+                <Shape ID="10" />
+                <Shape ID="19" />
+                <Shape ID="12" />
+                <Shape ID="11" />
+                <Shape ID="2" />
+                <Shape ID="9" />
+                <Shape ID="3" />
+                <Shape ID="8" />
+                <Shape ID="7" />
+                <Shape ID="6" />
+                <Shape ID="5" />
+                <Shape ID="4" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointHinge Active="true" BreakForce="0" BreakSound="" Breakable="false" CollideBodies="false" ConnectedChildBodyID="17" ConnectedParentBodyID="20" ID="18" LimitStepCount="0" MaxAngle="100" MaxLimitMaxSpeed="0" MaxLimitMinSpeed="0" MaxLimitSound="" MaxMoveFreq="0.8" MaxMoveFreqSpeed="1" MaxMoveSpeed="2" MaxMoveVolume="0.6" MiddleMoveSpeed="1" MiddleMoveVolume="0.4" MinAngle="0" MinLimitMaxSpeed="0" MinLimitMinSpeed="0" MinLimitSound="" MinMoveFreq="0.7" MinMoveFreqSpeed="1" MinMoveSpeed="0.1" MinMoveVolume="0.3" MoveSound="joint_bull_move.snt" MoveType="Angular" Name="JointHinge_1" PinDir="-1 -3.61999e-006 0" Rotation="0 0 1.5708" Scale="1 1 1" StickyMaxLimit="true" StickyMinLimit="true" Stiffness="0" Tag="" WorldPos="0 1.68576 -0.016614" />
+        </Joints>
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="Lever">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="false" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="MoveMaxSpeed" Value="2" />
+        <Var Name="MoveSlowDownFactor" Value="3.0" />
+        <Var Name="MoveSpeedFactor" Value="0.5" />
+        <Var Name="MoveThrowImpulse" Value="6.0" />
+        <Var Name="CanInteractWithStaticBody" Value="false" />
+        <Var Name="MinLimitRange" Value="5.0" />
+        <Var Name="MaxLimitRange" Value="5.0" />
+        <Var Name="MinLimitSound" Value="joint_bull_close.snt" />
+        <Var Name="MaxLimitSound" Value="joint_bull_open..snt" />
+        <Var Name="StuckSound" Value="" />
+        <Var Name="MiddleAngleAmount" Value="0" />
+        <Var Name="AutoMoveToAngle" Value="false" />
+        <Var Name="AutoMoveSpeedFactor" Value="2" />
+        <Var Name="AutoMoveMaxSpeed" Value="8" />
+        <Var Name="AutoMoveGoal" Value="Middle" />
+    </UserDefinedVariables>
+</Entity>

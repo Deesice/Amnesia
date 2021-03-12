@@ -1,0 +1,63 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="-0.02065 0.163481 180" CameraTarget="-0.02065 0.163481 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0.344539 0.002669" CameraTarget="0 0.344539 0.002669" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.028394 180 -0.209084" CameraTarget="-0.028394 0 -0.209084" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-0.1867 0.700428 -0.397809" CameraTarget="0 0 0" CameraZoom="4.10213" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/item/wooden_bucket/wooden_bucket.dae">
+            <SubMesh Active="true" ID="0" Material="" Name="bucket" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="-0.016038 0.000435 0.002289" />
+            <SubMesh Active="true" ID="1" Material="" Name="handle" Rotation="-2.09439 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="-0.016038 0.344029 0.002289" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="3" Name="Shape_1" RelativeRotation="0 0 0" RelativeScale="0.2 0.29 0.2" RelativeTranslation="0.0022205 -0.095037 -0.0009165" Rotation="0 0 0" Scale="0.2 0.29 0.2" ShapeType="Cylinder" Tag="" WorldPos="-0.014627 0.145 0" />
+            <BodyShape Active="true" ID="12" Name="Shape_5" RelativeRotation="0 0 -0.118189" RelativeScale="0.02 0.1 0.1" RelativeTranslation="0.200348 0.095037 0.0009165" Rotation="0 0 -0.118189" Scale="0.02 0.1 0.1" ShapeType="Box" Tag="" WorldPos="0.183501 0.335074 0.001833" />
+            <BodyShape Active="true" ID="13" Name="Shape_6" RelativeRotation="0 0 0.187728" RelativeScale="0.02 0.1 0.1" RelativeTranslation="-0.200348 0.095037 0.0009165" Rotation="0 0 0.187728" Scale="0.02 0.1 0.1" ShapeType="Box" Tag="" WorldPos="-0.217196 0.335074 0.001833" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="16" LinearDamping="0" Mass="1.5" Material="Wood" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.0168475 0.240037 0.0009165">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="3" />
+                <Shape ID="12" />
+                <Shape ID="13" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointHinge Active="true" BreakForce="0" BreakSound="" Breakable="false" CollideBodies="true" ConnectedChildBodyID="-1" ConnectedParentBodyID="16" ID="18" LimitStepCount="0" MaxAngle="280" MaxLimitMaxSpeed="0" MaxLimitMinSpeed="0" MaxLimitSound="" MaxMoveFreq="1.1" MaxMoveFreqSpeed="0.7" MaxMoveSpeed="2" MaxMoveVolume="0.8" MiddleMoveSpeed="0.5" MiddleMoveVolume="0.5" MinAngle="0" MinLimitMaxSpeed="0" MinLimitMinSpeed="0" MinLimitSound="" MinMoveFreq="0.95" MinMoveFreqSpeed="0.2" MinMoveSpeed="0.1" MinMoveVolume="0.01" MoveSound="" MoveType="Linear" Name="HingeJoint_1" PinDir="1 -3.61999e-006 -3.61999e-006" Rotation="1.5708 1.5708 0" Scale="1 1 1" StickyMaxLimit="true" StickyMinLimit="true" Stiffness="0" Tag="" WorldPos="-0.045428 0.345309 0.000603" />
+        </Joints>
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="Puzzle" EntityType="Item">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="SubItemTypeName" Value="WoodenBucket" />
+        <Var Name="ImageFile" Value="wooden_bucket.tga" />
+        <Var Name="PickSound" Value="Generic" />
+        <Var Name="TempVar" Value="0" />
+    </UserDefinedVariables>
+</Entity>

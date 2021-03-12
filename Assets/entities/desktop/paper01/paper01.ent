@@ -1,0 +1,30 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 20.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="20.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 20.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="-0.040628 0.404005 0.338074" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="4.550000" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+        <GlobalLightConfig AmbientLight="false" PointLight="false" />
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="Static" EntityType="StaticProp" />
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="E:/lux/redist/entities/desktop/paper01/paper01.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="pPlane1" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" SubMeshID="0" Tag="" Type="11" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="2" Name="BodyShape_2" RelativeRotation="0.000000 0.000000 0.000000" RelativeScale="0.650000 0.025000 1.000000" RelativeTranslation="0.000000 0.000000 -0.000000" Rotation="0.000000 0.000000 0.000000" Scale="0.225408 0.025000 0.320320" ShapeType="Box" ShapeTypeID="0" Tag="" Type="8" WorldPos="0.004098 0.010811 0.010369" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.000000" BlocksSound="false" CanAttachCharacter="true" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" ID="3" LinearDamping="0.000000" Mass="0.000000" Material="Dyn_Paper" MaxAngularSpeed="0.000000" MaxLinearSpeed="0.000000" Name="Body_1" PushedByCharacterGravity="true" Rotation="0.000000 0.000000 0.000000" Scale="0.346781 1.000000 0.320320" Tag="" Type="9" UseSurfaceEffects="true" Volatile="false" WorldPos="0.004098 0.010811 0.010369">
+                <Shape ID="2" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

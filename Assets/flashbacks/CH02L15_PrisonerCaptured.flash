@@ -1,0 +1,10 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L15_PrisonerCapturedbs_01.ogg" EffectSound="fb_sfx_15_captured.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L15_PrisonerCaptured_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_PrisonerCaptured_01" />
+		<Voice VoiceSound="flashbacks/CH02L15_PrisonerCaptured_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_PrisonerCaptured_02" />
+		<Voice VoiceSound="flashbacks/CH02L15_PrisonerCaptured_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_PrisonerCaptured_03" />
+		<Voice VoiceSound="flashbacks/CH02L15_PrisonerCaptured_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_PrisonerCaptured_04" />
+		<Voice VoiceSound="flashbacks/CH02L15_PrisonerCapturedas_04.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

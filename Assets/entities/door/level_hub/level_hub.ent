@@ -1,0 +1,62 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0 0 180" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="180 0 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="0 180 0" CameraTarget="0 0 0" CameraZoom="0" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+            <Viewport CameraPosition="-1.03277 2.19439 -3.31698" CameraTarget="-0.285487 1.25834 0.043533" CameraZoom="2.64013" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="false" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/door/level_hub/level_hub.DAE">
+            <SubMesh Active="true" ID="0" Material="" Name="door" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="1" Name="BodyShape_1" RelativeRotation="0 0 0" RelativeScale="1.75 2.75 0.25" RelativeTranslation="-0.097542 -0.0050056 0.0827435" Rotation="0 0 0" Scale="1.75 2.75 0.25" ShapeType="Box" Tag="" WorldPos="0 1.375 0" />
+            <BodyShape Active="true" ID="2" Name="BodyShape_2" RelativeRotation="0 0 0" RelativeScale="0.9 0.9 0.1" RelativeTranslation="-0.099746 -0.0590116 -0.0390685" Rotation="0 0 0" Scale="0.9 0.9 0.1" ShapeType="Box" Tag="" WorldPos="-0.002204 1.32099 -0.121812" />
+            <BodyShape Active="true" ID="3" Name="BodyShape_3" RelativeRotation="0 0 0" RelativeScale="0.3 0.3 0.1" RelativeTranslation="-0.779553 -0.119389 -0.0827435" Rotation="0 0 0" Scale="0.3 0.3 0.1" ShapeType="Box" Tag="" WorldPos="-0.682011 1.26062 -0.165487" />
+            <BodyShape Active="true" ID="4" Name="BodyShape_4" RelativeRotation="0 0 0" RelativeScale="0.1 0.4 0.1" RelativeTranslation="0.779553 -0.677779 -0.0390685" Rotation="0 0 0" Scale="0.1 0.4 0.1" ShapeType="Box" Tag="" WorldPos="0.877095 0.702227 -0.121812" />
+            <BodyShape Active="true" ID="5" Name="BodyShape_5" RelativeRotation="0 0 0" RelativeScale="0.1 0.4 0.1" RelativeTranslation="0.779553 0.677778 -0.0390685" Rotation="0 0 0" Scale="0.1 0.4 0.1" ShapeType="Box" Tag="" WorldPos="0.877095 2.05778 -0.121812" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="true" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="true" HasGravity="true" ID="6" LinearDamping="0" Mass="0" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="true" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.097542 1.38001 -0.0827435">
+                <Children>
+                    <Child ID="0" />
+                </Children>
+                <Shape ID="2" />
+                <Shape ID="1" />
+                <Shape ID="5" />
+                <Shape ID="4" />
+                <Shape ID="3" />
+            </Body>
+        </Bodies>
+        <Joints />
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="LevelDoor">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="EnterSound" Value="door_level_wood_open" />
+        <Var Name="ExitSound" Value="door_level_wood_close" />
+    </UserDefinedVariables>
+</Entity>

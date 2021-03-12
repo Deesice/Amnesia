@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 919489420582b1a479883712aaf54de3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - root: {instanceID: 0}
+  - closeOnSound: {fileID: 8300000, guid: 0690d70f6c0a0334aa80bdd437ff371e, type: 3}
+  - closeOffSound: {fileID: 8300000, guid: daf583dcca334454d9125feff38636a8, type: 3}
+  - lockOnSound: {fileID: 8300000, guid: 56f5fd5ff53173842b36c1df43dad392, type: 3}
+  - lockOffSound: {fileID: 8300000, guid: 9d4fa7d14f083ed40aa1357341c6d9f4, type: 3}
+  - interactLockedSound: {fileID: 8300000, guid: b5181fb17562f994486aee4a200b8ac5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

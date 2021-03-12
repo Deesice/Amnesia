@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsWalkWood
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: d9098fa89c097d9428cbc30fcf0dac28, type: 3}
+  - {fileID: 8300000, guid: 95f2e858fa15d1642ae1bc2ce351d9f4, type: 3}
+  - {fileID: 8300000, guid: 318808f1ad1fa0443a3673a6b3fa3f36, type: 3}
+  - {fileID: 8300000, guid: 06a0a518deb444d498100ec5856ca5a5, type: 3}
+  - {fileID: 8300000, guid: 77c325a67de432d45ab35b8566505b2e, type: 3}
+  volume: 0.7

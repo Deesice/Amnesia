@@ -1,0 +1,3 @@
+[1123/183755.536:ERROR:gl_surface_egl.cc(537)] EGL Driver message (Critical) eglInitialize: No available renderers.
+[1123/183755.539:ERROR:gl_surface_egl.cc(949)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1123/200231.944:ERROR:browser_gpu_channel_host_factory.cc(139)] Failed to launch GPU process.

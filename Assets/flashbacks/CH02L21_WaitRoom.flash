@@ -1,0 +1,10 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L21_WaitRoombs_01.ogg" EffectSound="fb_sfx_21_wait_room.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L21_WaitRoom_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_WaitRoom_01" />
+		<Voice VoiceSound="flashbacks/CH02L21_WaitRoom_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_WaitRoom_02" />
+		<Voice VoiceSound="flashbacks/CH02L21_WaitRoom_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_WaitRoom_03" />
+		<Voice VoiceSound="flashbacks/CH02L21_WaitRoom_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L21_WaitRoom_04" />
+		<Voice VoiceSound="flashbacks/CH02L21_WaitRoomas_04.ogg" EffectSound="" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

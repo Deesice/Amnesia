@@ -1,0 +1,12 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH02L15_GirlEscapebs_01.ogg" EffectSound="fb_sfx_15_girl_hole.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH02L15_GirlEscape_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_GirlEscape_01" />
+		<Voice VoiceSound="flashbacks/CH02L15_GirlEscape_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_GirlEscape_02" />
+		<Voice VoiceSound="flashbacks/CH02L15_GirlEscape_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_GirlEscape_03" />
+		<Voice VoiceSound="flashbacks/CH02L15_GirlEscape_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_GirlEscape_04" />
+		<Voice VoiceSound="flashbacks/CH02L15_GirlEscape_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_GirlEscape_05" />
+		<Voice VoiceSound="flashbacks/CH02L15_GirlEscape_06.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH02L15_GirlEscape_06" />
+		<Voice VoiceSound="flashbacks/CH02L15_GirlEscapeas_06.ogg" EffectSound="fb_sfx_15_girl_hole.ogg" TextCat="" TextEntry="" />
+	</Voices>
+</Flashback>

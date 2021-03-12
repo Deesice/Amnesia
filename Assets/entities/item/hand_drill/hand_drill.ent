@@ -1,0 +1,58 @@
+<Entity>
+    <EditorSession>
+        <ViewportConfig GridSnap="false" GridSnapSeparation="0.250000" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="0.000000 0.000000 20.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="2" Preset="0" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="20.000000 0.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="0" Preset="1" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.000000 20.000000 0.000000" CameraTarget="0.000000 0.000000 0.000000" CameraZoom="0.916291" GridHeight="0.000000" GridPlane="1" Preset="2" RenderMode="1" ShowGrid="true" />
+            <Viewport CameraPosition="0.083747 0.751916 0.826677" CameraTarget="0.005563 -0.077489 -0.086621" CameraZoom="3.699998" GridHeight="0.000000" GridPlane="1" Preset="3" RenderMode="0" ShowGrid="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <UserDefinedVariables EntitySubType="Puzzle" EntityType="Item">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="SubItemTypeName" Value="drill" />
+        <Var Name="ImageFile" Value="hand_drill.tga" />
+        <Var Name="PickSound" Value="Generic" />
+        <Var Name="TempVar" Value="0" />
+    </UserDefinedVariables>
+    <ModelData Name="">
+        <Entities />
+        <Mesh Filename="entities/item/hand_drill/hand_drill.dae">
+            <SubMesh Active="true" GroupID="0" ID="0" Name="hand_drill" Rotation="0.000000 0.000000 0.000000" Scale="2.000000 2.000000 2.000000" SubMeshID="0" Tag="" Type="13" WorldPos="0.000000 0.000000 0.000000" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" GroupID="0" ID="1" Name="Shape_1" RelativeRotation="0.000000 1.570796 0.000000" RelativeScale="0.032000 0.032000 0.420000" RelativeTranslation="-0.375100 0.000000 0.148934" Rotation="0.000000 1.570796 0.000000" Scale="0.032000 0.032000 0.420000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="-0.361140 0.000000 0.000425" />
+            <BodyShape Active="true" GroupID="0" ID="2" Name="Shape_2" RelativeRotation="0.000000 -0.087266 0.000000" RelativeScale="0.044000 0.044000 0.360000" RelativeTranslation="0.270812 0.000000 -0.000802" Rotation="0.000000 -0.087266 0.000000" Scale="0.044000 0.044000 0.360000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.284772 0.000000 -0.149312" />
+            <BodyShape Active="true" GroupID="0" ID="3" Name="Shape_3" RelativeRotation="0.000000 1.570796 0.000000" RelativeScale="0.072000 0.072000 0.288000" RelativeTranslation="0.441100 0.000000 -0.165165" Rotation="0.000000 1.570796 0.000000" Scale="0.072000 0.072000 0.288000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.455060 0.000000 -0.313675" />
+            <BodyShape Active="true" GroupID="0" ID="4" Name="Shape_4" RelativeRotation="0.000000 1.570796 0.000000" RelativeScale="0.100000 0.100000 0.380000" RelativeTranslation="0.030639 0.000000 0.151165" Rotation="0.000000 1.570796 0.000000" Scale="0.100000 0.100000 0.380000" ShapeType="Box" ShapeTypeID="0" Tag="" Type="10" WorldPos="0.044599 0.000000 0.002655" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0.300000" BlocksSound="false" CanAttachCharacter="false" CollideCharacter="false" CollideNonCharacter="true" ContinuousCollision="true" GroupID="0" HasGravity="true" ID="6" LinearDamping="0.300000" Mass="0.500000" Material="Default" MaxAngularSpeed="8.000000" MaxLinearSpeed="8.000000" Name="Body" PushedByCharacterGravity="false" Rotation="0.000000 0.000000 0.000000" Scale="1.000000 1.000000 1.000000" Tag="" Type="11" UseSurfaceEffects="true" Volatile="false" WorldPos="0.013960 0.000000 -0.148510">
+                <Shape ID="1" />
+                <Shape ID="2" />
+                <Shape ID="3" />
+                <Shape ID="4" />
+                <Children>
+                    <Child ID="0" />
+                </Children>
+            </Body>
+        </Bodies>
+        <Joints />
+    </ModelData>
+</Entity>

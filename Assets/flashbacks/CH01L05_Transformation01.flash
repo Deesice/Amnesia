@@ -1,0 +1,7 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation01bs_01.ogg" EffectSound="fb_sfx_05_transformation01.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation01_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L05_Transformation01_01" />
+		<Voice VoiceSound="flashbacks/CH01L05_Transformation01_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="CH01L05_Transformation01_02" />
+	</Voices>
+</Flashback>

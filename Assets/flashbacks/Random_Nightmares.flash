@@ -1,0 +1,10 @@
+<Flashback>
+	<Voices>
+		<Voice VoiceSound="flashbacks/Random_Nightmaresbs_01.ogg" EffectSound="fb_sfx_random_nightmares.ogg" TextCat="" TextEntry="" />
+		<Voice VoiceSound="flashbacks/Random_Nightmares_01.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Nightmares_01" />
+		<Voice VoiceSound="flashbacks/Random_Nightmares_02.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Nightmares_02" />
+		<Voice VoiceSound="flashbacks/Random_Nightmares_03.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Nightmares_03" />
+		<Voice VoiceSound="flashbacks/Random_Nightmares_04.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Nightmares_04" />
+		<Voice VoiceSound="flashbacks/Random_Nightmares_05.ogg" EffectSound="" TextCat="Flashbacks" TextEntry="Random_Nightmares_05" />
+	</Voices>
+</Flashback>

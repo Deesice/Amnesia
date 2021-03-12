@@ -1,0 +1,93 @@
+<Entity>
+    <EditorSession>
+        <Performance CamClipPlanes="0.05 1000" LightsActive="true" PSActive="true" ShowFog="true" ShowSkybox="true" WorldReflection="true" />
+        <ViewportConfig BGColor="0.2 0.2 0.2 1" GAmbientLight="true" GPointLight="true" GridSnap="false" GridSnapSeparation="0.25" SelectedViewport="3" UsingEnlargedViewport="true">
+            <Viewport CameraPosition="-0.025 1.025 20" CameraTarget="-0.025 1.025 0" CameraZoom="0.916291" GridHeight="0" GridPlane="2" Preset="0" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="20 0 0" CameraTarget="0 0 0" CameraZoom="0.916291" GridHeight="0" GridPlane="0" Preset="1" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="0.845 20 -0.11" CameraTarget="0.845 0 -0.11" CameraZoom="0.916291" GridHeight="0" GridPlane="1" Preset="2" RenderMode="1" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+            <Viewport CameraPosition="-0.111471 3.41008 2.73682" CameraTarget="0.812674 0.80154 -0.055726" CameraZoom="2.543" GridHeight="0" GridPlane="1" Preset="3" RenderMode="0" ShowAxes="true" ShowGrid="true" UsingLTCam="true" />
+        </ViewportConfig>
+    </EditorSession>
+    <ModelData>
+        <Entities />
+        <Mesh Filename="entities/door/castle_arched01/castle_arched01.dae">
+            <SubMesh Active="true" ID="14" Material="" Name="Scene_Root1" Rotation="0 0 0" Scale="1 1 1" SubMeshID="0" Tag="" WorldPos="0 0 0" />
+            <SubMesh Active="true" ID="15" Material="" Name="Door04" Rotation="0 0 0" Scale="1 1 1" SubMeshID="1" Tag="" WorldPos="0 0 0" />
+        </Mesh>
+        <Bones />
+        <Shapes>
+            <BodyShape Active="true" ID="2" Name="BodyShape_1" RelativeRotation="0 0 0" RelativeScale="1.7 1.9 0.22" RelativeTranslation="0.284665 -0.432846 0.001461" Rotation="0 0 0" Scale="1.666 1.8525 0.22" ShapeType="Box" Tag="" WorldPos="-0.019898 1.00746 -0.002473" />
+            <BodyShape Active="true" ID="3" Name="BodyShape_1_clone_1" RelativeRotation="0 0 0" RelativeScale="0.2 0.25 0.05" RelativeTranslation="-0.288229 -0.386713 -0.127903" Rotation="0 0 0" Scale="0.196 0.24375 0.05" ShapeType="Box" Tag="" WorldPos="-0.581334 1.05244 -0.131837" />
+            <BodyShape Active="true" ID="4" Name="BodyShape_1_clone_1_clone_1" RelativeRotation="0 0 0" RelativeScale="0.2 0.25 0.05" RelativeTranslation="-0.288229 -0.386713 0.127903" Rotation="0 0 0" Scale="0.196 0.24375 0.05" ShapeType="Box" Tag="" WorldPos="-0.581334 1.05244 0.123969" />
+            <BodyShape Active="true" ID="5" Name="BodyShape_2" RelativeRotation="1.5708 0 0" RelativeScale="0.84 0.2145 0.844308" RelativeTranslation="0.288229 0.432846 -0.002143" Rotation="1.5708 0 0" Scale="0.8232 0.2145 0.8232" ShapeType="Cylinder" Tag="" WorldPos="-0.016406 1.85151 -0.006077" />
+            <BodyShape Active="true" ID="6" Name="BodyShape_1_clone_1_clone_2" RelativeRotation="-2.53518e-006 1.5708 -2.53518e-006" RelativeScale="0.15 0.2 0.025" RelativeTranslation="0 -0.00103551 0" Rotation="-2.53518e-006 1.5708 -2.53518e-006" Scale="0.15 0.2 0.025" ShapeType="Box" Tag="" WorldPos="0.883123 0.933873 -0.033887" />
+            <BodyShape Active="true" ID="7" Name="BodyShape_1_clone_1_clone_2_clone_1" RelativeRotation="-2.53518e-006 1.5708 -2.53518e-006" RelativeScale="0.15 0.2 0.025" RelativeTranslation="0 0.754562 0" Rotation="-2.53518e-006 1.5708 -2.53518e-006" Scale="0.15 0.2 0.025" ShapeType="Box" Tag="" WorldPos="0.883123 1.68947 -0.033887" />
+            <BodyShape Active="true" ID="8" Name="BodyShape_1_clone_1_clone_2_clone_2" RelativeRotation="-2.53518e-006 1.5708 -2.53518e-006" RelativeScale="0.15 0.2 0.025" RelativeTranslation="0 -0.754562 0" Rotation="-2.53518e-006 1.5708 -2.53518e-006" Scale="0.15 0.2 0.025" ShapeType="Box" Tag="" WorldPos="0.883123 0.180347 -0.033887" />
+        </Shapes>
+        <Bodies>
+            <Body Active="true" AngularDamping="0" BlocksSound="false" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="false" HasGravity="true" ID="9" LinearDamping="0" Mass="0" Material="Metal" MaxAngularSpeed="0" MaxLinearSpeed="0" Name="Body_1" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="1 1 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="0.883123 0.934909 -0.033887">
+                <Children>
+                    <Child ID="14" />
+                </Children>
+                <Shape ID="8" />
+                <Shape ID="6" />
+                <Shape ID="7" />
+            </Body>
+            <Body Active="true" AngularDamping="0.2" BlocksSound="true" BuoyancyDensityMul="1" CanAttachCharacter="false" CollideCharacter="true" CollideNonCharacter="true" ContinuousCollision="false" HasGravity="true" ID="10" LinearDamping="0.2" Mass="20" Material="Wood" MaxAngularSpeed="8" MaxLinearSpeed="8" Name="Body_2" PushedByCharacterGravity="false" Rotation="0 0 0" Scale="0.98 0.975 1" Tag="" UseSurfaceEffects="true" Volatile="false" WorldPos="-0.29887 1.42949 -0.003934">
+                <Children>
+                    <Child ID="15" />
+                </Children>
+                <Shape ID="5" />
+                <Shape ID="3" />
+                <Shape ID="2" />
+                <Shape ID="4" />
+            </Body>
+        </Bodies>
+        <Joints>
+            <JointHinge Active="true" BreakForce="0" BreakSound="" Breakable="false" CollideBodies="true" ConnectedChildBodyID="10" ConnectedParentBodyID="9" ID="11" LimitStepCount="0" MaxAngle="90" MaxLimitMaxSpeed="3" MaxLimitMinSpeed="0" MaxLimitSound="" MaxMoveFreq="1.1" MaxMoveFreqSpeed="1.5" MaxMoveSpeed="2" MaxMoveVolume="0.8" MiddleMoveSpeed="1" MiddleMoveVolume="0.8" MinAngle="0" MinLimitMaxSpeed="3" MinLimitMinSpeed="0" MinLimitSound="" MinMoveFreq="0.9" MinMoveFreqSpeed="0.5" MinMoveSpeed="0.1" MinMoveVolume="0.8" MoveSound="joint_door_move.snt" MoveType="Angular" Name="HingeJoint_1" PinDir="0 1 0" Rotation="0 0 0" Scale="1 1 1" StickyMaxLimit="false" StickyMinLimit="false" Stiffness="0" Tag="" WorldPos="0.854998 0.967543 -0.112636" />
+        </Joints>
+        <Animations />
+    </ModelData>
+    <UserDefinedVariables EntitySubType="" EntityType="SwingDoor">
+        <Var Name="Health" Value="100" />
+        <Var Name="Toughness" Value="0" />
+        <Var Name="MaxFocusDistance" Value="0" />
+        <Var Name="MainPhysicsBody" Value="" />
+        <Var Name="ShowMesh" Value="true" />
+        <Var Name="DissolveOnDestruction" Value="false" />
+        <Var Name="DissolveTime" Value="1.0" />
+        <Var Name="EffectsOnSound" Value="" />
+        <Var Name="EffectsOffSound" Value="" />
+        <Var Name="EffectsOnTime" Value="1" />
+        <Var Name="EffectsOffTime" Value="1" />
+        <Var Name="EffectsOffLightColor" Value="0 0 0 0" />
+        <Var Name="EffectsOffLightRadius" Value="-1" />
+        <Var Name="ShowHints" Value="true" />
+        <Var Name="StaticMoveCheckCollision" Value="false" />
+        <Var Name="StaticMoveStartSound" Value="" />
+        <Var Name="StaticMoveStopSound" Value="" />
+        <Var Name="StaticMoveLoopSound" Value="" />
+        <Var Name="RandomizeAnimationStart" Value="true" />
+        <Var Name="MoveMaxSpeed" Value="4" />
+        <Var Name="MoveSlowDownFactor" Value="3" />
+        <Var Name="MoveSpeedFactor" Value="1.0" />
+        <Var Name="MoveThrowImpulse" Value="6.0" />
+        <Var Name="CanInteractWithStaticBody" Value="false" />
+        <Var Name="CloseOnSound" Value="close_door" />
+        <Var Name="CloseOffSound" Value="open_door" />
+        <Var Name="LockOnSound" Value="lock_door" />
+        <Var Name="LockOffSound" Value="unlock_door" />
+        <Var Name="InteractLockedSound" Value="locked_door" />
+        <Var Name="Breakable" Value="true" />
+        <Var Name="DamageMesh1" Value="F:/Amnesia/redist/entities/door/castle_arched01/castle_arched01_damage1.dae" />
+        <Var Name="DamageMesh2" Value="F:/Amnesia/redist/entities/door/castle_arched01/castle_arched01_damage2.dae" />
+        <Var Name="BrokenEntity" Value="F:/Amnesia/redist/entities/door/castle_arched01/castle_arched01_broken.ent" />
+        <Var Name="DamageSound" Value="hit_wood" />
+        <Var Name="DamagePS" Value="particles/ps_door_damage_wood.ps" />
+        <Var Name="BreakSound" Value="break_wood_metal" />
+        <Var Name="BreakPS" Value="particles/break/ps_break_wood.ps" />
+        <Var Name="BreakImpulse" Value="3" />
+        <Var Name="HealthDamage1" Value="66" />
+        <Var Name="HealthDamage2" Value="33" />
+    </UserDefinedVariables>
+</Entity>

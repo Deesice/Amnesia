@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89d5a797d346729478c14cca66c302c3, type: 3}
+  m_Name: StepsRunMetal
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 3887f3c6e7916064fb953e230e4da67f, type: 3}
+  - {fileID: 8300000, guid: 53c8efea328389e479b204f257e41738, type: 3}
+  - {fileID: 8300000, guid: c4023a984c16e0e4d9e1385221e92b24, type: 3}
+  - {fileID: 8300000, guid: 1863f233fedd03f4ea6063c334d11712, type: 3}
+  - {fileID: 8300000, guid: 33bec851e3f17624ea56d340f744ca19, type: 3}
+  volume: 0.7
